@@ -17,7 +17,9 @@ dependencies:
   open_filex: ^4.4.0
   gal: ^2.3.0
   flutter_svg: ^0.22.0
-  davinci: ">=2.5.1 "
+  davinci:
+    git:
+      url: https://github.com/Staheos/davinci.git
   home_widget: ^0.7.0
 
 
