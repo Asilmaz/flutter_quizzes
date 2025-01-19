@@ -8,20 +8,22 @@ topics: [screenshots, image-capture, dynamic-image-generation]
 
 environment:
   sdk: ">=3.3.0"
-  flutter: ">=1.16.0"
+  flutter: ">=2.16.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  path_provider: ^2.1.3
-  open_filex: ^4.4.0
-  gal: ^2.3.0
-  flutter_svg: ^0.22.0
+  path_provider: ">=2.1.5"
+  any_link_preview:
+    git:
+      url: https://github.com/sur950/any_link_preview.git
+  open_filex: ">=4.6.0"
+  gal: ">=2.3.1 "
+  flutter_svg: ">=2.0.17"
   davinci:
     git:
       url: https://github.com/Staheos/davinci.git
-  home_widget: ^0.7.0
-
+  home_widget: '>=0.7.0'
 
 
 dev_dependencies:
