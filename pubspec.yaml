@@ -31,6 +31,22 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  assets:
+    - assets/
+    - assets/sats/
+    - assets/sats/questions/
+    - assets/sats/questions/rw/
+    - assets/sats/questions/rw/Central-Ideas-and-Details/
+    - assets/sats/questions/rw/Command-of-Evidence/
+    - assets/sats/questions/rw/Cross-Text-Connections/
+    - assets/sats/questions/rw/Form-Structure-and-Sense/
+    - assets/sats/questions/rw/Inferences/
+    - assets/sats/questions/rw/Rhetorical-Synthesis/
+    - assets/sats/questions/rw/Text-Structure-and-Purpose/
+    - assets/sats/questions/rw/Transitions/
+    - assets/sats/questions/rw/Words-in-Context/
+    - assets/sats/questions/rw/Boundaries/
+    - assets/sats/start_images/
 
 platforms:
   android:

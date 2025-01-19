@@ -26,7 +26,7 @@ class SatsQuestionBank {
   Future<List<String>> getQuestionListFromAssets(
       SatsQuestionSubcategoriesRW questionSubcategory,
       ) async {
-    String questionIdsStr = await rootBundle.loadString('assets/sats/questions/$category/${questionSubcategory.string}/${questionSubcategory.embedQuestionName()}_list.txt', cache: false);
+    String questionIdsStr = await rootBundle.loadString('packages/flutter_quizzes/assets/sats/questions/$category/${questionSubcategory.string}/${questionSubcategory.embedQuestionName()}_list.txt', cache: false);
     return questionIdsStr.split(",,");
   }
 
@@ -44,7 +44,7 @@ class SatsQuestionBank {
         if (savedQuestionIds.contains(id)) {
           continue;
         }
-        String questionStr = await rootBundle.loadString('assets/sats/questions/$category/${questionSubcategory.string}/$id', cache: false);
+        String questionStr = await rootBundle.loadString('packages/flutter_quizzes/assets/sats/questions/$category/${questionSubcategory.string}/$id', cache: false);
         SatsQuestion question = SatsQuestion.fromJsonDifficulty(jsonDecode(questionStr), SatsQuestionDifficulty.difficultyEasy);
         question.subcategory = questionSubcategory;
         await setSavedQuestion(question, questionSubcategory, id);
