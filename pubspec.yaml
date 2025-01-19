@@ -1,0 +1,34 @@
+name: flutter_quizzes
+description: Flutter Quizzes is a Flutter package that allows you to create quizzes with images and text.
+version: 1.0.0
+homepage: https://github.com/Asilmaz/flutter_quizzes
+repository: https://github.com/Asilmaz/flutter_quizzes
+issue_tracker: https://github.com/Asilmaz/flutter_quizzes/issues
+topics: [screenshots, image-capture, dynamic-image-generation]
+
+environment:
+  sdk: ">=3.3.0"
+  flutter: ">=1.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.3
+  open_filex: ^4.4.0
+  gal: ^2.3.0
+  flutter_svg: ^0.22.0
+  davinci: ">=2.5.1 "
+  home_widget: ^0.7.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+platforms:
+  android:
+  ios:
+  web:
