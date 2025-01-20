@@ -104,6 +104,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_bta_functions:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "5d12f147a64ce5621b221b731cf5587349b366d6"
+      url: "https://github.com/Staheos/flutter_bta_functions.git"
+    source: git
+    version: "1.0.0"
   flutter_svg:
     dependency: "direct main"
     description:
