@@ -1,8 +1,7 @@
 import 'package:flutter_quizzes/flutter_quizzes.dart';
 import 'package:flutter_bta_functions/flutter_bta_functions.dart';
 
-Future<Map<String, QuizQuestionData>> convertToQuestions(String category, String level, int count) async {
-  Map<String, dynamic> tasks = await getRandomQuestions(category, level, count);
+Future<Map<String, QuizQuestionData>> convertToQuestions(Map<String, dynamic> tasks) async {
   Map<String, QuizQuestionData> questions = {
     for (int i = 0; i < tasks.length; ++i)
       "$i": await () async {
@@ -27,6 +26,11 @@ Future<Map<String, QuizQuestionData>> convertToQuestions(String category, String
       }(),
   };
   return questions;
+}
+
+Future<Map<String, QuizQuestionData>> convertToRandomQuestions(String category, String level, int count) async {
+  Map<String, dynamic> tasks = await getRandomQuestions(category, level, count);
+  return convertToQuestions(tasks);
 }
 
 class QuizQuestionData {
