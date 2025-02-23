@@ -24,14 +24,14 @@ class SatsQuestionBank {
   }
 
   Future<List<String>> getQuestionListFromAssets(
-      SatsQuestionSubcategoriesRW questionSubcategory,
+      SatsQuestionSubcategories questionSubcategory,
       ) async {
     String questionIdsStr = await rootBundle.loadString('packages/flutter_quizzes/assets/sats/questions/$category/${questionSubcategory.string}/${questionSubcategory.embedQuestionName()}_list.txt', cache: false);
     return questionIdsStr.split(",,");
   }
 
   Future<void> loadFromAssets(
-    SatsQuestionSubcategoriesRW questionSubcategory, {
+    SatsQuestionSubcategories questionSubcategory, {
       int? limit,
   }) async {
     try {
@@ -60,7 +60,7 @@ class SatsQuestionBank {
   }
 
   Future<List<String>?> getQuestionListFromBackend(
-    SatsQuestionSubcategoriesRW questionSubcategory,
+    SatsQuestionSubcategories questionSubcategory,
   ) async {
     try {
       Response response = await get(
@@ -84,7 +84,7 @@ class SatsQuestionBank {
   }
 
   Future<SatsQuestion?> getQuestionFromBackend(
-    SatsQuestionSubcategoriesRW questionSubcategory,
+    SatsQuestionSubcategories questionSubcategory,
     String id,
   ) async {
     try {
@@ -112,37 +112,37 @@ class SatsQuestionBank {
   }
 
   List<String> getSavedQuestionIds(
-    SatsQuestionSubcategoriesRW questionSubcategory,
+    SatsQuestionSubcategories questionSubcategory,
   ) {
     String questionIds = prefs.getString('questions_${category}_${questionSubcategory.string}_list') ?? "";
     return questionIds == "" ? [] : questionIds.split(",,");
   }
 
-  Future<void> setSavedQuestionIds(SatsQuestionSubcategoriesRW questionSubcategory, List<String> questionIds) async {
+  Future<void> setSavedQuestionIds(SatsQuestionSubcategories questionSubcategory, List<String> questionIds) async {
     await prefs.setString('questions_${category}_${questionSubcategory.string}_list', questionIds.join(",,"));
   }
 
-  List<String> getUsedQuestionsIds(SatsQuestionSubcategoriesRW questionSubcategory) {
+  List<String> getUsedQuestionsIds(SatsQuestionSubcategories questionSubcategory) {
     if (prefs.getString('questions_${category}_${questionSubcategory}_used') == null) {
       return [];
     }
     return prefs.getString('questions_${category}_${questionSubcategory}_used')!.split(",,");
   }
 
-  Future<void> setUsedQuestionsIds(SatsQuestionSubcategoriesRW questionSubcategory, List<String> usedQuestionIds) async {
+  Future<void> setUsedQuestionsIds(SatsQuestionSubcategories questionSubcategory, List<String> usedQuestionIds) async {
     await prefs.setString('questions_${category}_${questionSubcategory}_used', usedQuestionIds.join(",,"));
   }
 
   Future<void> setSavedQuestion(
     SatsQuestion question,
-    SatsQuestionSubcategoriesRW questionSubcategory,
+    SatsQuestionSubcategories questionSubcategory,
     String questionID,
   ) async {
     await prefs.setString('questions_${category}_${questionSubcategory.string}_$questionID', question.toJson());
   }
 
   SatsQuestion? getSavedQuestion(
-    SatsQuestionSubcategoriesRW questionSubcategory,
+    SatsQuestionSubcategories questionSubcategory,
     String questionID,
   ) {
     String? savedQuestion = prefs.getString('questions_${category}_${questionSubcategory.string}_$questionID');
@@ -153,7 +153,7 @@ class SatsQuestionBank {
   }
 
   Future<bool> updateQuestionsFromBackend(
-    SatsQuestionSubcategoriesRW questionSubcategory, {
+    SatsQuestionSubcategories questionSubcategory, {
     int? limit,
   }) async {
     List<String>? fetchedQuestionIdList = await getQuestionListFromBackend(questionSubcategory);
@@ -188,7 +188,7 @@ class SatsQuestionBank {
   }
 
   Future<bool> updateQuestions(
-    SatsQuestionSubcategoriesRW questionSubcategory, {
+    SatsQuestionSubcategories questionSubcategory, {
     int? limit,
     }) async {
     print("Updating questions for ${questionSubcategory.string}.");
@@ -197,7 +197,7 @@ class SatsQuestionBank {
   }
 
   Future<Map<String, SatsQuestion>> getQuestions(
-    SatsQuestionSubcategoriesRW questionSubcategory,
+    SatsQuestionSubcategories questionSubcategory,
     int limit,
     bool markAsUsed,
     bool avoidUsed, {
@@ -245,7 +245,7 @@ class SatsQuestionBank {
   }
 
   Future<void> reportQuestion(
-      SatsQuestionSubcategoriesRW questionSubcategory,
+      SatsQuestionSubcategories questionSubcategory,
       String questionID,
       ) async {
     await post(Uri(scheme: 'http', host: serverHost, port: serverPort),

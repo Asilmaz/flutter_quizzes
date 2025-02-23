@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 Future<void> ReportQuestionDialog(
     BuildContext context,
-    SatsQuestionSubcategoriesRW? questionSubcategory,
+    SatsQuestionSubcategories? questionSubcategory,
     String? questionID,
     ) async {
   Size size = MediaQuery.of(context).size;

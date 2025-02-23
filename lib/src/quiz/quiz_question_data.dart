@@ -45,7 +45,7 @@ class QuizQuestionData {
 
   /// Mainly for SATs
   String? explanation;
-  SatsQuestionSubcategoriesRW? subcategory;
+  SatsQuestionSubcategories? subcategory;
   SatsQuestionDifficulty? difficulty;
 
 

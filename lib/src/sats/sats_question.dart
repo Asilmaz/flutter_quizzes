@@ -13,7 +13,7 @@ class SatsQuestion {
   final String D;
   final String correct;
   final String explanation;
-  late SatsQuestionSubcategoriesRW? subcategory; // check if late final is OK here
+  late SatsQuestionSubcategories? subcategory; // check if late final is OK here
   final SatsQuestionDifficulty difficulty;
 
   SatsQuestion(this.introduction, this.text, this.text2, this.question, this.A, this.B, this.C, this.D, this.correct, this.explanation, this.subcategory, this.difficulty,
@@ -30,7 +30,7 @@ class SatsQuestion {
         D = json['D'] as String,
         correct = json['correct'] as String,
         explanation = json['explanation'] as String,
-        subcategory = json['subcategory'] == null ? null : SatsQuestionSubcategoriesRW.fromString(json['subcategory'] as String),
+        subcategory = json['subcategory'] == null ? null : SatsQuestionSubcategories.fromString(json['subcategory'] as String),
         difficulty = SatsQuestionDifficulty.fromString(json['difficulty']);
 
   SatsQuestion.fromJsonDifficulty(Map<String, dynamic> json, this.difficulty)
@@ -44,7 +44,7 @@ class SatsQuestion {
         D = json['D'] as String,
         correct = json['correct'] as String,
         explanation = json['explanation'] as String,
-        subcategory = json['subcategory'] == null ? null : SatsQuestionSubcategoriesRW.fromString(json['subcategory'] as String);
+        subcategory = json['subcategory'] == null ? null : SatsQuestionSubcategories.fromString(json['subcategory'] as String);
 
   String toJson() {
     Map<String, dynamic> json = {

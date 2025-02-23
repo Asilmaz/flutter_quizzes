@@ -1,4 +1,4 @@
-enum ESatsQuestionSubcategoriesRW {
+enum ESatsQuestionSubcategories {
   CentralIdeasAndDetails,
   CommandOfEvidence,
   CrossTextConnections,
@@ -31,10 +31,10 @@ enum ESatsQuestionSubcategoriesRW {
   Circles,
 }
 
-class SatsQuestionSubcategoriesRW {
-  final ESatsQuestionSubcategoriesRW type;
+class SatsQuestionSubcategories {
+  final ESatsQuestionSubcategories type;
 
-  SatsQuestionSubcategoriesRW(
+  SatsQuestionSubcategories(
     this.type,
   );
 
@@ -42,7 +42,7 @@ class SatsQuestionSubcategoriesRW {
   /// Throws an exception if the string is not a valid question type
   /// Example: SatsQuestionTypesRW.fromString("Cross-Text-Connections")
   /// Returns: SatsQuestionTypesRW(ESatsQuestionTypesRW.CrossTextConnections)
-  SatsQuestionSubcategoriesRW.fromString(String typeString) : type = getFromString(typeString);
+  SatsQuestionSubcategories.fromString(String typeString) : type = getFromString(typeString);
 
   @override
   String toString() {
@@ -51,146 +51,146 @@ class SatsQuestionSubcategoriesRW {
 
   /// Returns the enum value of the question subcategory from a string
   /// Throws an exception if the string is not valid
-  static ESatsQuestionSubcategoriesRW getFromString(String typeString) {
+  static ESatsQuestionSubcategories getFromString(String typeString) {
     switch (typeString) {
     // Existing
       case _CentralIdeasAndDetails:
-        return ESatsQuestionSubcategoriesRW.CentralIdeasAndDetails;
+        return ESatsQuestionSubcategories.CentralIdeasAndDetails;
       case _CommandOfEvidence:
-        return ESatsQuestionSubcategoriesRW.CommandOfEvidence;
+        return ESatsQuestionSubcategories.CommandOfEvidence;
       case _CrossTextConnections:
-        return ESatsQuestionSubcategoriesRW.CrossTextConnections;
+        return ESatsQuestionSubcategories.CrossTextConnections;
       case _FormStructureAndSense:
-        return ESatsQuestionSubcategoriesRW.FormStructureAndSense;
+        return ESatsQuestionSubcategories.FormStructureAndSense;
       case _Inferences:
-        return ESatsQuestionSubcategoriesRW.Inferences;
+        return ESatsQuestionSubcategories.Inferences;
       case _RhetoricalSynthesis:
-        return ESatsQuestionSubcategoriesRW.RhetoricalSynthesis;
+        return ESatsQuestionSubcategories.RhetoricalSynthesis;
       case _TextStructureAndPurpose:
-        return ESatsQuestionSubcategoriesRW.TextStructureAndPurpose;
+        return ESatsQuestionSubcategories.TextStructureAndPurpose;
       case _Transitions:
-        return ESatsQuestionSubcategoriesRW.Transitions;
+        return ESatsQuestionSubcategories.Transitions;
       case _WordsInContext:
-        return ESatsQuestionSubcategoriesRW.WordsInContext;
+        return ESatsQuestionSubcategories.WordsInContext;
       case _Boundaries:
-        return ESatsQuestionSubcategoriesRW.Boundaries;
+        return ESatsQuestionSubcategories.Boundaries;
 
       case _LinearEquationsInOneVariable:
-        return ESatsQuestionSubcategoriesRW.LinearEquationsInOneVariable;
+        return ESatsQuestionSubcategories.LinearEquationsInOneVariable;
       case _LinearFunctions:
-        return ESatsQuestionSubcategoriesRW.LinearFunctions;
+        return ESatsQuestionSubcategories.LinearFunctions;
       case _LinearEquationsInTwoVariables:
-        return ESatsQuestionSubcategoriesRW.LinearEquationsInTwoVariables;
+        return ESatsQuestionSubcategories.LinearEquationsInTwoVariables;
       case _SystemsOfTwoLinearEquationsInTwoVariables:
-        return ESatsQuestionSubcategoriesRW
+        return ESatsQuestionSubcategories
             .SystemsOfTwoLinearEquationsInTwoVariables;
       case _LinearInequalitiesInOneOrTwoVariables:
-        return ESatsQuestionSubcategoriesRW
+        return ESatsQuestionSubcategories
             .LinearInequalitiesInOneOrTwoVariables;
       case _NonlinearFunctions:
-        return ESatsQuestionSubcategoriesRW.NonlinearFunctions;
+        return ESatsQuestionSubcategories.NonlinearFunctions;
       case _NonlinearEquationsInOneVariableAndSystemsOfEquationsInTwoVariables:
-        return ESatsQuestionSubcategoriesRW
+        return ESatsQuestionSubcategories
             .NonlinearEquationsInOneVariableAndSystemsOfEquationsInTwoVariables;
       case _EquivalentExpressions:
-        return ESatsQuestionSubcategoriesRW.EquivalentExpressions;
+        return ESatsQuestionSubcategories.EquivalentExpressions;
       case _RatiosRatesProportionalRelationshipsAndUnits:
-        return ESatsQuestionSubcategoriesRW
+        return ESatsQuestionSubcategories
             .RatiosRatesProportionalRelationshipsAndUnits;
       case _Percentages:
-        return ESatsQuestionSubcategoriesRW.Percentages;
+        return ESatsQuestionSubcategories.Percentages;
       case _OneVariableDataDistributionsAndMeasuresOfCenterAndSpread:
-        return ESatsQuestionSubcategoriesRW
+        return ESatsQuestionSubcategories
             .OneVariableDataDistributionsAndMeasuresOfCenterAndSpread;
       case _TwoVariableDataModelsAndScatterplots:
-        return ESatsQuestionSubcategoriesRW
+        return ESatsQuestionSubcategories
             .TwoVariableDataModelsAndScatterplots;
       case _ProbabilityAndConditionalProbability:
-        return ESatsQuestionSubcategoriesRW.ProbabilityAndConditionalProbability;
+        return ESatsQuestionSubcategories.ProbabilityAndConditionalProbability;
       case _InferenceFromSampleStatisticsAndMarginOfError:
-        return ESatsQuestionSubcategoriesRW
+        return ESatsQuestionSubcategories
             .InferenceFromSampleStatisticsAndMarginOfError;
       case _EvaluatingStatisticalClaimsObservationalStudiesAndExperiments:
-        return ESatsQuestionSubcategoriesRW
+        return ESatsQuestionSubcategories
             .EvaluatingStatisticalClaimsObservationalStudiesAndExperiments;
       case _AreaAndVolume:
-        return ESatsQuestionSubcategoriesRW.AreaAndVolume;
+        return ESatsQuestionSubcategories.AreaAndVolume;
       case _LinesAnglesAndTriangles:
-        return ESatsQuestionSubcategoriesRW.LinesAnglesAndTriangles;
+        return ESatsQuestionSubcategories.LinesAnglesAndTriangles;
       case _RightTrianglesAndTrigonometry:
-        return ESatsQuestionSubcategoriesRW.RightTrianglesAndTrigonometry;
+        return ESatsQuestionSubcategories.RightTrianglesAndTrigonometry;
       case _Circles:
-        return ESatsQuestionSubcategoriesRW.Circles;
+        return ESatsQuestionSubcategories.Circles;
       default:
-        throw Exception("Invalid SatsQuestionTypesRW string: $typeString");
+        throw Exception("Invalid SatsQuestionTypes string: $typeString");
     }
   }
 
   String get string {
     switch (type) {
-      case ESatsQuestionSubcategoriesRW.CentralIdeasAndDetails:
+      case ESatsQuestionSubcategories.CentralIdeasAndDetails:
         return _CentralIdeasAndDetails;
-      case ESatsQuestionSubcategoriesRW.CommandOfEvidence:
+      case ESatsQuestionSubcategories.CommandOfEvidence:
         return _CommandOfEvidence;
-      case ESatsQuestionSubcategoriesRW.CrossTextConnections:
+      case ESatsQuestionSubcategories.CrossTextConnections:
         return _CrossTextConnections;
-      case ESatsQuestionSubcategoriesRW.FormStructureAndSense:
+      case ESatsQuestionSubcategories.FormStructureAndSense:
         return _FormStructureAndSense;
-      case ESatsQuestionSubcategoriesRW.Inferences:
+      case ESatsQuestionSubcategories.Inferences:
         return _Inferences;
-      case ESatsQuestionSubcategoriesRW.RhetoricalSynthesis:
+      case ESatsQuestionSubcategories.RhetoricalSynthesis:
         return _RhetoricalSynthesis;
-      case ESatsQuestionSubcategoriesRW.TextStructureAndPurpose:
+      case ESatsQuestionSubcategories.TextStructureAndPurpose:
         return _TextStructureAndPurpose;
-      case ESatsQuestionSubcategoriesRW.Transitions:
+      case ESatsQuestionSubcategories.Transitions:
         return _Transitions;
-      case ESatsQuestionSubcategoriesRW.WordsInContext:
+      case ESatsQuestionSubcategories.WordsInContext:
         return _WordsInContext;
-      case ESatsQuestionSubcategoriesRW.Boundaries:
+      case ESatsQuestionSubcategories.Boundaries:
         return _Boundaries;
 
-      case ESatsQuestionSubcategoriesRW.LinearEquationsInOneVariable:
+      case ESatsQuestionSubcategories.LinearEquationsInOneVariable:
         return _LinearEquationsInOneVariable;
-      case ESatsQuestionSubcategoriesRW.LinearFunctions:
+      case ESatsQuestionSubcategories.LinearFunctions:
         return _LinearFunctions;
-      case ESatsQuestionSubcategoriesRW.LinearEquationsInTwoVariables:
+      case ESatsQuestionSubcategories.LinearEquationsInTwoVariables:
         return _LinearEquationsInTwoVariables;
-      case ESatsQuestionSubcategoriesRW.SystemsOfTwoLinearEquationsInTwoVariables:
+      case ESatsQuestionSubcategories.SystemsOfTwoLinearEquationsInTwoVariables:
         return _SystemsOfTwoLinearEquationsInTwoVariables;
-      case ESatsQuestionSubcategoriesRW.LinearInequalitiesInOneOrTwoVariables:
+      case ESatsQuestionSubcategories.LinearInequalitiesInOneOrTwoVariables:
         return _LinearInequalitiesInOneOrTwoVariables;
-      case ESatsQuestionSubcategoriesRW.NonlinearFunctions:
+      case ESatsQuestionSubcategories.NonlinearFunctions:
         return _NonlinearFunctions;
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .NonlinearEquationsInOneVariableAndSystemsOfEquationsInTwoVariables:
         return _NonlinearEquationsInOneVariableAndSystemsOfEquationsInTwoVariables;
-      case ESatsQuestionSubcategoriesRW.EquivalentExpressions:
+      case ESatsQuestionSubcategories.EquivalentExpressions:
         return _EquivalentExpressions;
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .RatiosRatesProportionalRelationshipsAndUnits:
         return _RatiosRatesProportionalRelationshipsAndUnits;
-      case ESatsQuestionSubcategoriesRW.Percentages:
+      case ESatsQuestionSubcategories.Percentages:
         return _Percentages;
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .OneVariableDataDistributionsAndMeasuresOfCenterAndSpread:
         return _OneVariableDataDistributionsAndMeasuresOfCenterAndSpread;
-      case ESatsQuestionSubcategoriesRW.TwoVariableDataModelsAndScatterplots:
+      case ESatsQuestionSubcategories.TwoVariableDataModelsAndScatterplots:
         return _TwoVariableDataModelsAndScatterplots;
-      case ESatsQuestionSubcategoriesRW.ProbabilityAndConditionalProbability:
+      case ESatsQuestionSubcategories.ProbabilityAndConditionalProbability:
         return _ProbabilityAndConditionalProbability;
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .InferenceFromSampleStatisticsAndMarginOfError:
         return _InferenceFromSampleStatisticsAndMarginOfError;
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .EvaluatingStatisticalClaimsObservationalStudiesAndExperiments:
         return _EvaluatingStatisticalClaimsObservationalStudiesAndExperiments;
-      case ESatsQuestionSubcategoriesRW.AreaAndVolume:
+      case ESatsQuestionSubcategories.AreaAndVolume:
         return _AreaAndVolume;
-      case ESatsQuestionSubcategoriesRW.LinesAnglesAndTriangles:
+      case ESatsQuestionSubcategories.LinesAnglesAndTriangles:
         return _LinesAnglesAndTriangles;
-      case ESatsQuestionSubcategoriesRW.RightTrianglesAndTrigonometry:
+      case ESatsQuestionSubcategories.RightTrianglesAndTrigonometry:
         return _RightTrianglesAndTrigonometry;
-      case ESatsQuestionSubcategoriesRW.Circles:
+      case ESatsQuestionSubcategories.Circles:
         return _Circles;
 
       default:
@@ -201,69 +201,69 @@ class SatsQuestionSubcategoriesRW {
   /// Returns nicely formatted subcategory question name
   String getName() {
     switch (type) {
-      case ESatsQuestionSubcategoriesRW.CentralIdeasAndDetails:
+      case ESatsQuestionSubcategories.CentralIdeasAndDetails:
         return "Central Ideas and Details";
-      case ESatsQuestionSubcategoriesRW.CommandOfEvidence:
+      case ESatsQuestionSubcategories.CommandOfEvidence:
         return "Command of Evidence";
-      case ESatsQuestionSubcategoriesRW.CrossTextConnections:
+      case ESatsQuestionSubcategories.CrossTextConnections:
         return "Cross-Text Connections";
-      case ESatsQuestionSubcategoriesRW.FormStructureAndSense:
+      case ESatsQuestionSubcategories.FormStructureAndSense:
         return "Form, Structure, and Sense";
-      case ESatsQuestionSubcategoriesRW.Inferences:
+      case ESatsQuestionSubcategories.Inferences:
         return "Inferences";
-      case ESatsQuestionSubcategoriesRW.RhetoricalSynthesis:
+      case ESatsQuestionSubcategories.RhetoricalSynthesis:
         return "Rhetorical Synthesis";
-      case ESatsQuestionSubcategoriesRW.TextStructureAndPurpose:
+      case ESatsQuestionSubcategories.TextStructureAndPurpose:
         return "Text Structure and Purpose";
-      case ESatsQuestionSubcategoriesRW.Transitions:
+      case ESatsQuestionSubcategories.Transitions:
         return "Transitions";
-      case ESatsQuestionSubcategoriesRW.WordsInContext:
+      case ESatsQuestionSubcategories.WordsInContext:
         return "Words in Context";
-      case ESatsQuestionSubcategoriesRW.Boundaries:
+      case ESatsQuestionSubcategories.Boundaries:
         return "Boundaries";
 
-      case ESatsQuestionSubcategoriesRW.LinearEquationsInOneVariable:
+      case ESatsQuestionSubcategories.LinearEquationsInOneVariable:
         return "Linear equations in one variable";
-      case ESatsQuestionSubcategoriesRW.LinearFunctions:
+      case ESatsQuestionSubcategories.LinearFunctions:
         return "Linear functions";
-      case ESatsQuestionSubcategoriesRW.LinearEquationsInTwoVariables:
+      case ESatsQuestionSubcategories.LinearEquationsInTwoVariables:
         return "Linear equations in two variables";
-      case ESatsQuestionSubcategoriesRW.SystemsOfTwoLinearEquationsInTwoVariables:
+      case ESatsQuestionSubcategories.SystemsOfTwoLinearEquationsInTwoVariables:
         return "Systems of two linear equations in two variables";
-      case ESatsQuestionSubcategoriesRW.LinearInequalitiesInOneOrTwoVariables:
+      case ESatsQuestionSubcategories.LinearInequalitiesInOneOrTwoVariables:
         return "Linear inequalities in one or two variables";
-      case ESatsQuestionSubcategoriesRW.NonlinearFunctions:
+      case ESatsQuestionSubcategories.NonlinearFunctions:
         return "Nonlinear functions";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .NonlinearEquationsInOneVariableAndSystemsOfEquationsInTwoVariables:
         return "Nonlinear equations in one variable and systems of equations in two variables";
-      case ESatsQuestionSubcategoriesRW.EquivalentExpressions:
+      case ESatsQuestionSubcategories.EquivalentExpressions:
         return "Equivalent expressions";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .RatiosRatesProportionalRelationshipsAndUnits:
         return "Ratios, rates, proportional relationships, and units";
-      case ESatsQuestionSubcategoriesRW.Percentages:
+      case ESatsQuestionSubcategories.Percentages:
         return "Percentages";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .OneVariableDataDistributionsAndMeasuresOfCenterAndSpread:
         return "One-variable data: Distributions and measures of center and spread";
-      case ESatsQuestionSubcategoriesRW.TwoVariableDataModelsAndScatterplots:
+      case ESatsQuestionSubcategories.TwoVariableDataModelsAndScatterplots:
         return "Two-variable data: Models and scatterplots";
-      case ESatsQuestionSubcategoriesRW.ProbabilityAndConditionalProbability:
+      case ESatsQuestionSubcategories.ProbabilityAndConditionalProbability:
         return "Probability and conditional probability";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .InferenceFromSampleStatisticsAndMarginOfError:
         return "Inference from sample statistics and margin of error";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .EvaluatingStatisticalClaimsObservationalStudiesAndExperiments:
         return "Evaluating statistical claims: Observational studies and experiments";
-      case ESatsQuestionSubcategoriesRW.AreaAndVolume:
+      case ESatsQuestionSubcategories.AreaAndVolume:
         return "Area and volume";
-      case ESatsQuestionSubcategoriesRW.LinesAnglesAndTriangles:
+      case ESatsQuestionSubcategories.LinesAnglesAndTriangles:
         return "Lines, angles, and triangles";
-      case ESatsQuestionSubcategoriesRW.RightTrianglesAndTrigonometry:
+      case ESatsQuestionSubcategories.RightTrianglesAndTrigonometry:
         return "Right triangles and trigonometry";
-      case ESatsQuestionSubcategoriesRW.Circles:
+      case ESatsQuestionSubcategories.Circles:
         return "Circles";
 
       default:
@@ -273,69 +273,69 @@ class SatsQuestionSubcategoriesRW {
 
   embedQuestionName() {
     switch (type) {
-      case ESatsQuestionSubcategoriesRW.CentralIdeasAndDetails:
+      case ESatsQuestionSubcategories.CentralIdeasAndDetails:
         return "embed_(Central Ideas and Details)";
-      case ESatsQuestionSubcategoriesRW.CommandOfEvidence:
+      case ESatsQuestionSubcategories.CommandOfEvidence:
         return "embed_(Command of Evidence)";
-      case ESatsQuestionSubcategoriesRW.CrossTextConnections:
+      case ESatsQuestionSubcategories.CrossTextConnections:
         return "embed_(Cross-Text Connections)";
-      case ESatsQuestionSubcategoriesRW.FormStructureAndSense:
+      case ESatsQuestionSubcategories.FormStructureAndSense:
         return "embed_(Form, Structure, and Sense)";
-      case ESatsQuestionSubcategoriesRW.Inferences:
+      case ESatsQuestionSubcategories.Inferences:
         return "embed_(Inferences)";
-      case ESatsQuestionSubcategoriesRW.RhetoricalSynthesis:
+      case ESatsQuestionSubcategories.RhetoricalSynthesis:
         return "embed_(Rhetorical Synthesis)";
-      case ESatsQuestionSubcategoriesRW.TextStructureAndPurpose:
+      case ESatsQuestionSubcategories.TextStructureAndPurpose:
         return "embed_(Text Structure and Purpose)";
-      case ESatsQuestionSubcategoriesRW.Transitions:
+      case ESatsQuestionSubcategories.Transitions:
         return "embed_(Transitions)";
-      case ESatsQuestionSubcategoriesRW.WordsInContext:
+      case ESatsQuestionSubcategories.WordsInContext:
         return "embed_(Words in Context)";
-      case ESatsQuestionSubcategoriesRW.Boundaries:
+      case ESatsQuestionSubcategories.Boundaries:
         return "embed_(Boundaries)";
 
-      case ESatsQuestionSubcategoriesRW.LinearEquationsInOneVariable:
+      case ESatsQuestionSubcategories.LinearEquationsInOneVariable:
         return "embed_(Linear equations in one variable)";
-      case ESatsQuestionSubcategoriesRW.LinearFunctions:
+      case ESatsQuestionSubcategories.LinearFunctions:
         return "embed_(Linear functions)";
-      case ESatsQuestionSubcategoriesRW.LinearEquationsInTwoVariables:
+      case ESatsQuestionSubcategories.LinearEquationsInTwoVariables:
         return "embed_(Linear equations in two variables)";
-      case ESatsQuestionSubcategoriesRW.SystemsOfTwoLinearEquationsInTwoVariables:
+      case ESatsQuestionSubcategories.SystemsOfTwoLinearEquationsInTwoVariables:
         return "embed_(Systems of two linear equations in two variables)";
-      case ESatsQuestionSubcategoriesRW.LinearInequalitiesInOneOrTwoVariables:
+      case ESatsQuestionSubcategories.LinearInequalitiesInOneOrTwoVariables:
         return "embed_(Linear inequalities in one or two variables)";
-      case ESatsQuestionSubcategoriesRW.NonlinearFunctions:
+      case ESatsQuestionSubcategories.NonlinearFunctions:
         return "embed_(Nonlinear functions)";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .NonlinearEquationsInOneVariableAndSystemsOfEquationsInTwoVariables:
         return "embed_(Nonlinear equations in one variable and systems of equations in two variables)";
-      case ESatsQuestionSubcategoriesRW.EquivalentExpressions:
+      case ESatsQuestionSubcategories.EquivalentExpressions:
         return "embed_(Equivalent expressions)";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .RatiosRatesProportionalRelationshipsAndUnits:
         return "embed_(Ratios, rates, proportional relationships, and units)";
-      case ESatsQuestionSubcategoriesRW.Percentages:
+      case ESatsQuestionSubcategories.Percentages:
         return "embed_(Percentages)";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .OneVariableDataDistributionsAndMeasuresOfCenterAndSpread:
         return "embed_(One-variable data: Distributions and measures of center and spread)";
-      case ESatsQuestionSubcategoriesRW.TwoVariableDataModelsAndScatterplots:
+      case ESatsQuestionSubcategories.TwoVariableDataModelsAndScatterplots:
         return "embed_(Two-variable data: Models and scatterplots)";
-      case ESatsQuestionSubcategoriesRW.ProbabilityAndConditionalProbability:
+      case ESatsQuestionSubcategories.ProbabilityAndConditionalProbability:
         return "embed_(Probability and conditional probability)";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .InferenceFromSampleStatisticsAndMarginOfError:
         return "embed_(Inference from sample statistics and margin of error)";
-      case ESatsQuestionSubcategoriesRW
+      case ESatsQuestionSubcategories
           .EvaluatingStatisticalClaimsObservationalStudiesAndExperiments:
         return "embed_(Evaluating statistical claims: Observational studies and experiments)";
-      case ESatsQuestionSubcategoriesRW.AreaAndVolume:
+      case ESatsQuestionSubcategories.AreaAndVolume:
         return "embed_(Area and volume)";
-      case ESatsQuestionSubcategoriesRW.LinesAnglesAndTriangles:
+      case ESatsQuestionSubcategories.LinesAnglesAndTriangles:
         return "embed_(Lines, angles, and triangles)";
-      case ESatsQuestionSubcategoriesRW.RightTrianglesAndTrigonometry:
+      case ESatsQuestionSubcategories.RightTrianglesAndTrigonometry:
         return "embed_(Right triangles and trigonometry)";
-      case ESatsQuestionSubcategoriesRW.Circles:
+      case ESatsQuestionSubcategories.Circles:
         return "embed_(Circles)";
 
       default:
