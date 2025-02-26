@@ -42,6 +42,7 @@ class QuizQuestionData {
   Map<String, bool> correct;
   Map<String, double> score;
   Map<String, double?>? scoreIncorrect;
+  List<List<String>> table;
 
   /// Mainly for SATs
   String? explanation;
@@ -61,5 +62,6 @@ class QuizQuestionData {
     this.explanation,
     this.subcategory,
     this.difficulty,
+    this.table = const [],
   });
 }
