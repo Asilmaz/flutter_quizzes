@@ -47,6 +47,7 @@ class QuizQuestionData {
   /// Mainly for SATs
   String? explanation;
   SatsQuestionSubcategories? subcategory;
+  String subcategoryStr;
   SatsQuestionDifficulty? difficulty;
 
 
@@ -61,7 +62,57 @@ class QuizQuestionData {
     this.scoreIncorrect,
     this.explanation,
     this.subcategory,
+    this.subcategoryStr = "",
     this.difficulty,
     this.table = const [],
   });
+
+  QuizQuestionData.fromJson(Map<String, dynamic> json)
+      : introduction = json['introduction'] as String?,
+        text = json['text'] as String?,
+        text2 = json['text2'] as String?,
+        question = (json['question'] != null ? json['question'] : json['task']) as String,
+        answers = {
+          for (var key in json['answers'].keys)
+            key: json['answers'][key].toString(),
+        },
+        correct = {
+          for (var key in json['correct'].keys)
+            key: json['correct'][key] as bool,
+        },
+        score = json['score'] == null ? {
+          for (var key in json['answers'].keys)
+            key: 1,
+        } : {
+          for (var key in json['score'].keys)
+            key: json['score'][key] as double,
+        },
+        table = json['table'] == null ? [] : List<List<String>>.from(json['table']),
+        explanation = json['explanation'] as String,
+        subcategoryStr = (json['subcategory'] != null ? json['subcategory'] : json['category']) as String,
+        difficulty = SatsQuestionDifficulty.fromString(json['difficulty']);
+
+  QuizQuestionData.fromJsonDifficulty(Map<String, dynamic> json, this.difficulty)
+      : introduction = json['introduction'] as String?,
+        text = json['text'] as String?,
+        text2 = json['text2'] as String?,
+        question = (json['question'] != null ? json['question'] : json['task']) as String,
+        answers = {
+          for (var key in json['answers'].keys)
+            key: json['answers'][key].toString(),
+        },
+        correct = {
+          for (var key in json['correct'].keys)
+            key: json['correct'][key] as bool,
+        },
+        score = json['score'] == null ? {
+          for (var key in json['answers'].keys)
+            key: 1,
+        } : {
+          for (var key in json['score'].keys)
+            key: json['score'][key] as double,
+        },
+        table = json['table'] == null ? [] : List<List<String>>.from(json['table']),
+        explanation = json['explanation'] as String,
+        subcategoryStr = (json['subcategory'] != null ? json['subcategory'] : json['category']) as String;
 }
