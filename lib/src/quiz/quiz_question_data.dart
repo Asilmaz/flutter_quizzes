@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter_quizzes/flutter_quizzes.dart';
 import 'package:flutter_bta_functions/flutter_bta_functions.dart';
 
@@ -47,7 +49,7 @@ class QuizQuestionData {
   /// Mainly for SATs
   String? explanation;
   SatsQuestionSubcategories? subcategory;
-  String subcategoryStr;
+  String? subcategoryStr;
   SatsQuestionDifficulty? difficulty;
 
 
@@ -115,4 +117,21 @@ class QuizQuestionData {
         table = json['table'] == null ? [] : List<List<String>>.from(json['table']),
         explanation = json['explanation'] as String,
         subcategoryStr = (json['subcategory'] != null ? json['subcategory'] : json['category']) as String;
+
+  String toJson() {
+    Map<String, dynamic> json = {
+      'introduction': introduction,
+      'text': text,
+      'text2': text2,
+      'task': question,
+      "answers": answers,
+      "correct": correct,
+      "score": score,
+      "table": table,
+      'explanation': explanation,
+      if (subcategoryStr != null) 'subcategory': subcategoryStr,
+      if (difficulty != null) 'difficulty': difficulty!.string,
+    };
+    return jsonEncode(json);
+  }
 }
