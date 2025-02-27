@@ -51,7 +51,7 @@ class QuizQuestionData {
   SatsQuestionSubcategories? subcategory;
   String? subcategoryStr;
   SatsQuestionDifficulty? difficulty;
-
+  String id;
 
   QuizQuestionData(
     this.answers,
@@ -67,6 +67,7 @@ class QuizQuestionData {
     this.subcategoryStr = "",
     this.difficulty,
     this.table = const [],
+        this.id = '',
   });
 
   QuizQuestionData.fromJson(Map<String, dynamic> json)
@@ -92,7 +93,8 @@ class QuizQuestionData {
         table = json['table'] == null ? [] : List<List<String>>.from(json['table']),
         explanation = json['explanation'] as String,
         subcategoryStr = (json['subcategory'] != null ? json['subcategory'] : json['category']) as String,
-        difficulty = SatsQuestionDifficulty.fromString(json['difficulty']);
+        difficulty = SatsQuestionDifficulty.fromString(json['difficulty']),
+  id = (json['id'] ?? '') as String;
 
   QuizQuestionData.fromJsonDifficulty(Map<String, dynamic> json, this.difficulty)
       : introduction = json['introduction'] as String?,
@@ -116,7 +118,8 @@ class QuizQuestionData {
         },
         table = json['table'] == null ? [] : List<List<String>>.from(json['table']),
         explanation = json['explanation'] as String,
-        subcategoryStr = (json['subcategory'] != null ? json['subcategory'] : json['category']) as String;
+        subcategoryStr = (json['subcategory'] != null ? json['subcategory'] : json['category']) as String,
+        id = (json['id'] ?? '') as String;
 
   String toJson() {
     Map<String, dynamic> json = {
@@ -131,6 +134,7 @@ class QuizQuestionData {
       'explanation': explanation,
       if (subcategoryStr != null) 'subcategory': subcategoryStr,
       if (difficulty != null) 'difficulty': difficulty!.string,
+      id: id,
     };
     return jsonEncode(json);
   }
