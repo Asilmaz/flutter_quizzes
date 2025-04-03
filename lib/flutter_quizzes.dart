@@ -13,3 +13,7 @@ export './src/sats/report_question_dialog.dart';
 
 export './src/quiz/quiz_model_answer_layout.dart';
 export './src/quiz/quiz_question_data.dart';
+
+export './src/investing/helper_fn.dart';
+export './src/investing/menu.dart';
+export './src/investing/intro.dart';
