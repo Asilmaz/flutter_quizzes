@@ -1,1 +1,11 @@
-{"introduction": "", "text": "In <em>Frankenstein</em>, Mary Shelley delves into the consequences of ambition and the pursuit of knowledge at the expense of one's well-being. This excerpt captures the intense juxtaposition between Victor Frankenstein's initial excitement and his subsequent regret. The completion must align with Shelley\u2019s dramatic and reflective tone, using proper grammatical conventions to connect dependent and independent clauses.", "question": "<em>\"Victor\u2019s ambition rested upon the dream of creating life, but when the moment arrived ______\"</em>", "A": "it brought him no satisfaction, only horror.", "B": "it brought him no satisfaction: only horror.", "C": "it brought him no satisfaction, but only horror.", "D": "it brought him no satisfaction; only horror.", "correct": "C", "explanation": "<strong>Correct Answer:</strong> Choice <strong>D</strong> is correct because it uses a comma followed by but to connect the two independent clauses, maintaining proper grammatical structure and reflecting Shelley\u2019s dramatic tone. The addition of but only horror effectively emphasizes the stark contrast in Victor\u2019s emotional state.<strong>Why Others Are Incorrect:</strong><strong>A.</strong> This lacks the additional emphasis provided by but, which is needed to highlight the contrast between satisfaction and horror, diminishing the sentence's emotional impact.<strong>B.</strong> The semicolon incorrectly separates the clauses and disrupts the reflective tone of the sentence. Semicolons are not appropriate here as the second part isn\u2019t an independent clause.<strong>C.</strong> The colon suggests an explanation or list, which does not fit the structure or intent of the sentence, making it illogical in this context."}
+{
+	"introduction": "Punctuation Boundaries Practice",
+	"text": "To preserve its cultural traditions, the village organizes annual festivals for dance, music, and theater.",
+	"question": "<em>\"Many residents donate their time to these events ______ ensure the community’s history remains alive.\"</em>",
+	"A": "they help",
+	"B": "helping,",
+	"C": "helping",
+	"D": "and helping",
+	"correct": "C",
+	"explanation": "Choice C creates a participial phrase ('helping ensure') that explains how residents donate their time, seamlessly attaching it to the main clause. The other choices introduce punctuation or wording errors."
+}

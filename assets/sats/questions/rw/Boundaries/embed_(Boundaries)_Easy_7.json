@@ -1,1 +1,11 @@
-{"introduction": "", "text": "Aristotle\u2019s exploration of virtue in <em>The Nicomachean Ethics</em> reveals a profound connection between moral behavior and the mean \u2014 a balance between excess and deficiency. His philosophical tone emphasizes the necessity of rational judgment to determine virtuous action. The completion must reflect Aristotle's structured argument and adhere to the conventions of formal grammar, including proper punctuation for dependent and independent clauses.", "question": "<em>\"The mean, Aristotle argues, is the path to virtue, for it balances the extremes of excess and deficiency ______\"</em>", "A": "ensuring actions align, with rational principles.", "B": "and ensures, that actions align with rational principles.", "C": "and ensures that actions align with rational principles.", "D": "ensuring actions align with rational principles.", "correct": "C", "explanation": "<strong>Correct Answer:</strong> Choice <strong>A</strong> is correct because it uses a conjunction (and) to appropriately connect two independent clauses while maintaining grammatical accuracy and logical flow. The sentence remains consistent with Aristotle\u2019s philosophical tone, clearly linking balance and rational principles.<strong>Why Others Are Incorrect:</strong><strong>B.</strong> The comma after ensures is unnecessary and creates a grammatical error by improperly separating the subject from the rest of the clause.<strong>C.</strong> The participial phrase ensuring actions align changes the structure, making the second part of the sentence dependent and altering the intended meaning.<strong>D.</strong> The misplaced comma after align disrupts the sentence\u2019s flow and creates a punctuation error, as no pause is necessary there."}
+{
+	"introduction": "Punctuation Boundaries Practice",
+	"text": "Marta has prepared for this triathlon all year, focusing on endurance training and improving her nutrition.",
+	"question": "<em>\"Just before the race began, she felt a surge of excitement ______ the roaring cheers of the crowd.\"</em>",
+	"A": "—fueled by",
+	"B": "fueled, by",
+	"C": ": fueled by",
+	"D": "fueled by",
+	"correct": "A",
+	"explanation": "Choice A places a dash to highlight the dramatic effect of the crowd’s cheers. The dash effectively introduces a separate but related idea (the source of her excitement) without creating a run-on."
+}

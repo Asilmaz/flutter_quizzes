@@ -1,1 +1,11 @@
-{"introduction": "", "text": "Darwin\u2019s passage vividly illustrates the interconnectedness of nature. His description of the entangled bank emphasizes the balance between life forms and their reliance on their environments. The complexity of this harmony rests on subtle natural laws that may be overlooked by casual observers.Which choice completes the sentence below so that it conforms to the conventions of Standard English and mirrors the descriptive yet formal tone of Darwin's writing?", "question": "<em>\"The insects rested on the leaves of the bushes, their wings shimmering in the morning light ______\"</em>", "A": "as they rested, and the sunlight danced.", "B": "as they rested; the sunlight danced.", "C": "as they rested, the sunlight danced.", "D": "as they rested: the sunlight danced.", "correct": "C", "explanation": "<strong>Correct Answer:</strong> Choice <strong>D</strong> is correct because it uses a comma to separate the two independent clauses while maintaining a natural flow that mirrors Darwin\u2019s descriptive tone. The comma appropriately connects the dependent clause (as they rested) with the main clause (the sunlight danced), adhering to standard English conventions.<strong>Why Others Are Incorrect:</strong><strong>A.</strong> The repeated use of rested is redundant, creating an unnecessary repetition that disrupts the sentence\u2019s descriptive rhythm.<strong>B.</strong> The semicolon is too abrupt and incorrectly separates the dependent clause from the main clause, leading to a grammatical error.<strong>C.</strong> The colon is unnecessary and grammatically incorrect in this context because it cannot follow a dependent clause (as they rested) to introduce the main clause."}
+{
+	"introduction": "Punctuation Boundaries Practice",
+	"text": "Dr. Chen’s new research delves into the effects of urban noise pollution on local bird populations.",
+	"question": "<em>\"The results showed that certain species thrived, ______ others struggled to adapt to the louder environment.\"</em>",
+	"A": "although,",
+	"B": "while",
+	"C": "while,",
+	"D": "although",
+	"correct": "C",
+	"explanation": "Choice C places a comma after 'while' to set off the subordinate clause. 'While others struggled to adapt' is dependent, so it needs punctuation to introduce it clearly."
+}

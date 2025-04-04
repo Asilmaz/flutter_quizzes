@@ -1,1 +1,11 @@
-{"introduction": "", "text": "Virginia Woolf explores the challenges of life and the need for self-confidence in overcoming adversity. This excerpt reflects her argument that both men and women must cultivate inner strength and courage to face the difficulties of life. Woolf\u2019s style is reflective and analytical, emphasizing the connection between personal resilience and broader societal struggles.Which choice completes the sentence below so that it conforms to the conventions of Standard English and aligns with Woolf\u2019s analytical tone?", "question": "<em>\"Woolf rested her argument on the belief that self-confidence was essential for success, particularly in a world where ______\"</em>", "A": "one must navigate life\u2019s difficulties, and", "B": "one must navigate life\u2019s difficulties?", "C": "one must navigate life\u2019s difficulties.", "D": "one must navigate life\u2019s difficulties:", "correct": "C", "explanation": "<strong>Correct Answer:</strong> Choice <strong>A</strong> is correct because it maintains proper sentence structure and adheres to Woolf\u2019s reflective tone. The sentence is declarative, and no additional punctuation or conjunction is necessary at the end. The phrase one must navigate life\u2019s difficulties completes the thought logically and seamlessly.<strong>Why Others Are Incorrect:</strong><strong>B.</strong> The question mark introduces an interrogative tone that is not present in Woolf\u2019s argument, altering the sentence\u2019s purpose and making it inconsistent with the original tone.<strong>C.</strong> The comma followed by and creates an incomplete sentence, as it does not logically connect to a second independent clause.<strong>D.</strong> The colon is stylistically and grammatically inappropriate here because the sentence does not introduce a list or explanation following an independent clause."}
+{
+	"introduction": "Punctuation Boundaries Practice",
+	"text": "Over the summer, Luke studied various languages and immersed himself in new cultural experiences.",
+	"question": "<em>\"He traveled to Germany, France, and Sweden, ______ he returned with countless stories and photos.\"</em>",
+	"A": "but",
+	"B": "and",
+	"C": "and when",
+	"D": "but, when",
+	"correct": "B",
+	"explanation": "Choice B uses a simple coordinating conjunction without extra punctuation. This correctly joins two independent clauses in a smooth manner, reflecting the sequential nature of his travel and return."
+}
