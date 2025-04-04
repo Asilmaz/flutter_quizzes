@@ -1,1 +1,11 @@
-{"introduction": "Excerpt from Agricultural Economics: U.S. Crop Markets by Sarah B. Lyons", "text": "\"In the United States, prices for staple crops like wheat and corn can fluctuate due to seasonal demand, international markets, and unexpected climate conditions. A farmer analyzing crop prices in August 2020 found that the average price per bushel for wheat was ______.\"", "question": "Which choice most effectively completes the sentence using relevant data?", "A": "$6.50.", "B": "$4.10.", "C": "$3.75.", "D": "$5.30.", "correct": "D", "explanation": "Choice A is the best answer, as it represents a reasonable average price per bushel for wheat in recent years, aligning with typical mid-summer prices in the U.S.\nChoice B is incorrect because it suggests a lower-than-average price that doesn\u2019t reflect typical August rates.\nChoice C is misleading, as it implies a higher-than-average price not consistent with seasonal trends.\nChoice D is incorrect because it is below expected average market prices for wheat in August."}
+{
+	"introduction": "Passage from 'Literary Cross-Pollination in Early Modern Europe' (2024)",
+	"text": "Travel diaries from diplomats stationed abroad show that local literary circles often adapted foreign styles, while preserving distinctly regional narratives. These diaries describe gatherings where translated poems, recited in local tongues, spurred new hybrid genres. The phenomenon is believed to have laid groundwork for modern comparative literature, as these early poets would incorporate foreign rhyme schemes, yet root their content in homegrown folklore. Some critics argue these blends obscured national identity, while others see them as fruitful cross-cultural innovations.",
+	"question": "Which practice most clearly exemplifies the blending of literary traditions noted in the passage?",
+	"A": "Using solely local language and ignoring foreign forms",
+	"B": "Reading foreign poems in their original language without adaptation",
+	"C": "Translating foreign verse styles into local dialect while retaining native themes",
+	"D": "Mandating strict censorship of foreign works to preserve cultural purity",
+	"correct": "C",
+	"explanation": "Choice C is correct because the diaries describe a hybrid process of adopting foreign styles (rhyme schemes) but aligning them with the region’s own folkloric content, demonstrating cross-pollination of literary traditions."
+}

@@ -1,1 +1,11 @@
-{"introduction": "Excerpt from Dinosaurs of North America by John H. Ostrom", "text": "\"In a study of fossilized tracks, paleontologists examined the footprints of two different dinosaur species from the Cretaceous period. By analyzing footprint size, stride length, and track patterns, they inferred differences in speed and movement between the species. Findings suggest that one species, with longer strides, was capable of ______.\"", "question": "Which choice most effectively uses data to complete the statement?", "A": "slower movement over longer distances.", "B": "quicker, agile maneuvers in rocky areas.", "C": "moving faster due to its larger, deeper footprints.", "D": "moving faster due to its longer stride length.", "correct": "D", "explanation": "Choice D is the best answer because longer stride length typically indicates a greater capacity for speed, supporting the inference about the dinosaur's movement.\nChoice A is incorrect because longer strides generally suggest faster, not slower, movement.\nChoice B is misleading; agility isn\u2019t directly related to stride length.\nChoice C is incorrect because footprint depth does not directly indicate speed but rather weight or ground softness."}
+{
+	"introduction": "Passage from 'Zoological Surveys in the Boreal Zone' (2023)",
+	"text": "Field biologists studying a newly identified fox population observed its unique behavior of storing surplus food in the hollows of trees—a habit not commonly seen among other fox species in the region. Genetic analysis suggests these foxes split off from a larger population to the south roughly two centuries ago, adapting to colder climates by altering hunting patterns and developing thicker winter coats. However, the tree-storage habit is not easily explained by environmental factors alone, prompting researchers to hypothesize learned behavior passed through generations.",
+	"question": "Why is the tree-storage habit considered puzzling to the researchers?",
+	"A": "It does not align with the foxes’ thicker coat adaptations for cold weather",
+	"B": "It was never documented by historical observers of southern fox populations",
+	"C": "It cannot be explained solely by local climate conditions",
+	"D": "It appears only in artificially sustained environments",
+	"correct": "C",
+	"explanation": "Choice C is correct because the text explicitly states that environmental factors alone do not explain the foxes’ unique storage behavior, suggesting learned cultural transmission."
+}

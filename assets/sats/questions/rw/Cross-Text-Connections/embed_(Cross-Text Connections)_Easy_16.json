@@ -1,1 +1,12 @@
-{"introduction": "", "text": "Composer Igor Stravinsky\u2019s admiration for Russian folk music is evident in his work, especially in The Firebird, where he incorporates traditional Russian melodies to enrich the score\u2019s depth and complexity.", "text2": "Stravinsky\u2019s fascination with Russian folk elements extended into Petrushka, where he used folk motifs to capture the lively spirit of Russian festivals, blending them with his unique modernist style.", "question": "Based on the texts, both authors would most likely agree with which statement?", "A": "Stravinsky\u2019s modernist style was incompatible with folk themes.", "B": "Stravinsky avoided blending traditional elements with modern music.", "C": "Stravinsky\u2019s music was heavily influenced by Russian folk traditions.", "D": "Stravinsky\u2019s early works were exclusively folk-inspired.", "correct": "C", "explanation": "A is the best answer. Both texts indicate that Stravinsky\u2019s work shows a significant influence from Russian folk traditions, particularly in The Firebird and Petrushka.Choice B is incorrect; both texts describe blending traditional and modern elements.Choice C is incorrect; neither text suggests Stravinsky\u2019s works were exclusively folk-inspired.Choice D is incorrect; both texts show compatibility between modernist style and folk themes."}
+{
+	"introduction": "",
+	"text": "Text 1: Although credit reels in film and television may be mundane, they are standardized and thus extremely helpful for documenting an industry’s evolution. They also serve as a historical record of each participant’s career.",
+	"text2": "Text 2: In video game development, a lack of uniform crediting practices creates confusion about who contributed to which title, impeding efforts to trace the field’s innovative progress and overlooking many key designers.",
+	"question": "How would an advocate of Text 1’s perspective most likely characterize the situation described in Text 2?",
+	"A": "They would note that inconsistent crediting poses a barrier to the same kind of historical tracking possible in film and TV.",
+	"B": "They would assert that credit reels are completely irrelevant to any creative medium.",
+	"C": "They would suggest that over-crediting every game contributor is unproductive and should be avoided.",
+	"D": "They would claim that game developers have more reliable records of contributor roles than film productions do.",
+	"correct": "A",
+	"explanation": "Choice A aligns with how Text 1’s endorsement of standardized credits would highlight the disadvantage caused by their lack in gaming. The other answers contradict or ignore the benefits of standardized credits mentioned in Text 1."
+}

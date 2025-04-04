@@ -1,1 +1,12 @@
-{"introduction": "", "text": "Some art critics believe that abstract art should exclude recognizable forms to achieve true expression. This view aligns with early 20th-century artists like Kazimir Malevich, who avoided depicting familiar shapes to reach pure abstraction.", "text2": "Art historian Hilda Arnheim argues that pure abstraction limits artistic freedom. She suggests that blending recognizable forms with abstract elements enhances the viewer's engagement, as seen in Wassily Kandinsky's later works.", "question": "Based on the texts, how would Arnheim (Text 2) likely respond to the critics in Text 1?", "A": "By agreeing that abstraction is most effective without recognizable forms.", "B": "By asserting that abstract art is more impactful with blended forms.", "C": "By arguing that recognizable shapes make abstract art less expressive.", "D": "By claiming that abstract art should prioritize simple geometric shapes.", "correct": "B", "explanation": "C is the best answer. Arnheim (Text 2) believes that combining abstract and recognizable forms enhances engagement, a stance contrary to the purist view in Text 1.Choice A is incorrect; Arnheim does not support strict abstraction.Choice B is incorrect; Arnheim advocates for recognizable elements to enhance art.Choice D is incorrect; geometric shapes are not discussed in either text."}
+{
+	"introduction": "",
+	"text": "Text 1: Current ecological theories struggle to explain how numerous species of microscopic phytoplankton coexist in ocean surface waters, where they appear to be competing for the same limited resources.",
+	"text2": "Text 2: Some researchers propose that phytoplankton’s tiny size and sparse distribution reduce direct competition. Because the water is comparatively dense for such small organisms, they rarely collide or interact enough to outcompete one another decisively.",
+	"question": "Based on the texts, how would advocates of the theory in Text 2 likely respond to the unanswered question noted in Text 1?",
+	"A": "They would claim that resource competition is even more intense than previously suggested.",
+	"B": "They would propose that direct competition is minimal, which allows for greater coexistence among species.",
+	"C": "They would argue that phytoplankton do not actually need the same resources to survive.",
+	"D": "They would deny that large populations of phytoplankton exist in the ocean at all.",
+	"correct": "B",
+	"explanation": "Choice B is correct because Text 2 explicitly suggests that the minimal interactions among phytoplankton reduce head-to-head competition, allowing many species to persist. The other choices contradict or fail to address this logic."
+}

@@ -1,1 +1,12 @@
-{"introduction": "", "text": "Geologist Alfred Wegener proposed the theory of continental drift, suggesting that continents were once a single landmass that slowly drifted apart. Wegener based his theory on the similarities of fossils found on distant continents.", "text2": "Later studies in plate tectonics confirmed that continents move, but at varying speeds due to the forces of the Earth\u2019s mantle. Modern geologists now believe that these movements occur faster than Wegener originally theorized.", "question": "Which choice best describes a difference in how the authors of Text 1 and Text 2 view the movement of continents?", "A": "Text 1 views it as a sudden occurrence, while Text 2 sees it as gradual.", "B": "Text 1 suggests movement happens more slowly than Text 2 proposes.", "C": "Text 1 denies that continents ever moved, unlike Text 2.", "D": "Text 1 and Text 2 both see the movement as continuous but question the timeline.", "correct": "B", "explanation": "B is the best answer. Text 1 suggests slow drift, while Text 2 describes faster movement, contrasting their views on speed.Choice A is incorrect; both describe gradual movement, not sudden.Choice C is incorrect; Text 1 supports continental movement.Choice D is incorrect; only Text 2 questions the timeline."}
+{
+	"introduction": "",
+	"text": "Text 1: Adolphe Appia’s theory of stage lighting presupposed certain technical possibilities that did not become widespread until after the advent of modern electrical systems, raising questions as to whether his insights were purely theoretical.",
+	"text2": "Text 2: Some historians argue that Appia was not merely theoretical. They note his apprenticeship under a lighting specialist, where he learned about handheld and portable lighting devices—technology that helped shape his practical understanding of stage lighting.",
+	"question": "How would supporters of Text 2’s viewpoint most likely respond to critiques of Appia as lacking technical expertise?",
+	"A": "They would concede that Appia was exclusively theoretical, having never worked on an actual production.",
+	"B": "They would counter that Appia gained hands-on knowledge from his apprenticeship, informing his lighting concepts.",
+	"C": "They would suggest that Appia based his theories solely on the invention of neon lighting decades later.",
+	"D": "They would claim that technology for stage lighting had never been tested in real theatrical conditions.",
+	"correct": "B",
+	"explanation": "Choice B is correct because Text 2 explicitly references Appia’s apprenticeship, demonstrating his direct exposure to practical lighting methods. The other options do not align with the details provided."
+}

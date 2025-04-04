@@ -1,1 +1,12 @@
-{"introduction": "", "text": "Botanist Suzanne Simard found that trees in forests share nutrients through a network of underground fungi, a system that strengthens the ecosystem. Simard views this \u201cwood wide web\u201d as crucial for forest health.", "text2": "Forest ecologist Peter Wohlleben acknowledges the benefits of nutrient sharing among trees but notes that competition for light and space also impacts forest dynamics, often limiting collaboration among species.", "question": "Which choice best describes a difference in how Simard and Wohlleben view nutrient sharing among trees?", "A": "Simard is cautious, while Wohlleben sees collaboration as essential.", "B": "Both view nutrient sharing as minor in forest health.", "C": "Simard sees sharing as vital, while Wohlleben emphasizes competition.", "D": "Simard and Wohlleben both focus on competition over collaboration.", "correct": "C", "explanation": "B is the best answer. Simard emphasizes the importance of nutrient sharing, while Wohlleben highlights competition's role in forest dynamics.Choice A is incorrect; Simard is more optimistic about collaboration.Choice C is incorrect; both acknowledge nutrient sharing\u2019s significance.Choice D is incorrect; Simard emphasizes collaboration over competition."}
+{
+	"introduction": "",
+	"text": "Text 1: Video game scholars lament the industry’s inconsistent practice of crediting all contributors, which hinders efforts to trace the medium’s history and recognize innovators.",
+	"text2": "Text 2: In film and television, credits are standardized, providing a valuable record of cast and crew. The methodical listing of all participants helps researchers and historians piece together a comprehensive view of each production’s development.",
+	"question": "How would the author of Text 2 most likely respond to the challenge cited in Text 1 about researching game designers’ contributions?",
+	"A": "They would argue that the gaming industry’s more flexible approach to credits is actually beneficial.",
+	"B": "They would note that standardized credit sequences largely prevent similar problems in film and TV studies.",
+	"C": "They would dismiss the entire notion of recognizing individual contributors as irrelevant to creative history.",
+	"D": "They would insist that only major directors and producers deserve credit for a product’s success.",
+	"correct": "B",
+	"explanation": "Choice B is correct because Text 2 highlights how consistent and detailed credits in film and TV help historians avoid precisely the issue described in Text 1. The other answers do not align with this reasoning."
+}

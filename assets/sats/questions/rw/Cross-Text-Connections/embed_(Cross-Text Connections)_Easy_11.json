@@ -1,1 +1,12 @@
-{"introduction": "", "text": "Architect Frank Lloyd Wright is best known for his designs that harmonize with natural landscapes, such as Fallingwater. His work often integrates outdoor elements to create an organic aesthetic.", "text2": "Although Wright\u2019s nature-focused designs are famous, many of his urban projects, like the Johnson Wax Headquarters, highlight his modernist approach and commitment to functionality in city environments.", "question": "Based on the texts, both authors would most likely agree with which statement?", "A": "Wright\u2019s work exclusively focused on natural landscapes.", "B": "Wright\u2019s urban projects were more influential than his nature-based designs.", "C": "Wright\u2019s designs are diverse, spanning natural and urban settings.", "D": "Wright\u2019s work was primarily residential, with few commercial designs.", "correct": "C", "explanation": "B is the best answer. Both texts acknowledge Wright\u2019s versatility, with works ranging from natural landscapes to urban projects.Choice A is incorrect; Text 2 discusses his urban projects.Choice C is incorrect; influence isn\u2019t compared between project types.Choice D is incorrect; commercial designs like the Johnson Wax Headquarters are noted."}
+{
+	"introduction": "",
+	"text": "Text 1: Some historians suggest that the Chicxulub asteroid alone triggered the Cretaceous-Paleogene (K-Pg) extinction, given how precisely it aligns with the timeframe of the mass die-off.",
+	"text2": "Text 2: Critics note that large volcanic eruptions also coincide with mass extinction events and stress that the Deccan Traps eruptions occurred around the same period, releasing climate-altering gases that could have significantly impacted global ecosystems.",
+	"question": "If the author of Text 2 were to respond to the claim in Text 1, what would be the likely perspective?",
+	"A": "They would clarify that the timing of the asteroid strike does not coincide with any known extinction event.",
+	"B": "They would question whether multiple geologic factors, not just an asteroid impact, contributed to the extinction.",
+	"C": "They would suggest that volcanic activity is irrelevant to the K-Pg event’s outcomes.",
+	"D": "They would conclude that no real evidence supports the occurrence of large-scale eruptions at that time.",
+	"correct": "B",
+	"explanation": "Choice B is correct because Text 2 introduces volcanic activity as another major factor, implying that focusing solely on the asteroid event ignores the role of simultaneous eruptions. The other choices contradict the given data."
+}

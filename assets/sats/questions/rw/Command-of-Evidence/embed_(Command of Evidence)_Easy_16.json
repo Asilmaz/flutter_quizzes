@@ -1,1 +1,11 @@
-{"introduction": "Excerpt from Glaciers and Climate Change by Mark T. Anderson", "text": "\"The melting rates of glaciers around the world vary significantly due to factors like altitude and regional temperature changes. In recent studies, scientists have measured the ice loss in glaciers in Alaska, the Andes, and the Himalayas, revealing that the ______ glacier experienced the most significant area reduction.\"", "question": "Which choice most effectively uses data on glacier melting to complete the statement?", "A": "Himalayan", "B": "Alaskan", "C": "Andean", "D": "Arctic", "correct": "B", "explanation": "Choice A is the best answer because studies have shown that Alaskan glaciers, especially those at lower altitudes, experience rapid melting rates, making them highly susceptible to area reduction.\nChoice B is incorrect because Andean glaciers, while shrinking, generally experience slower melting rates.\nChoice C is misleading, as Himalayan glaciers are affected but not as dramatically as Alaskan ones.\nChoice D is incorrect; Arctic ice sheets are distinct from glaciers and follow different melting patterns."}
+{
+	"introduction": "Extract from 'Macroecological Shifts in Forest Ecosystems' (2024)",
+	"text": "Dr. Morales examined the correlation between increasing temperatures and the spread of pest insects in northern conifer forests. While pests were historically limited by harsh winters, recent climatic trends have allowed them to survive longer, accelerating tree damage. However, Morales found that some conifer species produced a protective resin in higher quantities when exposed to moderate pest levels. The sudden collapse in pest-control balance appears linked to unusually mild winters, leaving the conifers vulnerable to infestations at scale.",
+	"question": "What condition primarily enabled pest insects to proliferate extensively in the northern conifer forests?",
+	"A": "Excessive resin production weakening certain conifer species",
+	"B": "Year-round mild temperatures preventing typical winter die-off",
+	"C": "Complete absence of natural predators in the ecosystem",
+	"D": "Human intervention introducing invasive pest species",
+	"correct": "B",
+	"explanation": "Choice B is correct because the text states that pests historically died off in harsh winters, but milder winters have let them survive longer and thereby spread more widely."
+}

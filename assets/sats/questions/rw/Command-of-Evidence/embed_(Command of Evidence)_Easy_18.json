@@ -1,1 +1,11 @@
-{"introduction": "Excerpt from Climate Control in Modern Office Buildings by Susan E. Harper", "text": "\"Researchers monitored employees\u2019 comfort levels in office spaces with adjustable climate control systems. Participants rated their comfort on a scale from -3 (very cold) to +3 (very hot), with 0 indicating neutral. According to the survey, all participants preferred a slightly warmer temperature, even though ______.\"", "question": "Which choice most effectively completes the statement?", "A": "some participants reported a comfort level of +2.", "B": "the majority reported comfort levels below zero.", "C": "each participant\u2019s comfort level was exactly the same.", "D": "a few participants reported feeling colder than others.", "correct": "B", "explanation": "Choice D is correct because it suggests that most participants felt slightly cool (below zero) but still preferred a warmer temperature, aligning with the survey findings.\nChoice A is incorrect as it implies warmth rather than a preference for warming.\nChoice B is misleading because comfort levels usually vary between individuals.\nChoice C is incorrect, as it doesn\u2019t align with the overall preference for warmth."}
+{
+	"introduction": "Excerpt from 'Advanced Robotics in Surgical Procedures' (2024)",
+	"text": "Among the new generation of robotic surgical systems, micro-scale precision tools allow doctors to operate with minimal incisions. In trials comparing human-only procedures to hybrid operations (human surgeons assisted by micro-robots), complication rates decreased by 15%. However, researchers caution that relying too heavily on these automated tools could lead to skill atrophy among surgeons. Despite these reservations, the immediate benefits of faster patient recoveries and reduced post-operative infections cannot be ignored.",
+	"question": "Which statement would the researchers most likely agree with regarding robotic assistance in surgery?",
+	"A": "It has resulted in a complete elimination of surgical errors",
+	"B": "It reduces complications but may diminish surgeons’ manual proficiency over time",
+	"C": "It extends operation times due to slow, precise robotic movements",
+	"D": "Its benefits are overshadowed by excessively high equipment costs",
+	"correct": "B",
+	"explanation": "Choice B is correct because the text highlights both the decrease in complication rates and the concern that surgeons could lose skill if they become overreliant on robots."
+}
