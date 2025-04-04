@@ -47,28 +47,28 @@ AppBar appBar(
             },
           )
         : null,
-    title: Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Text(
-          title,
-          style: TextStyle(fontSize: size.width / 16),
-        ),
-        (!meditation)
-            ? ElevatedButton(
-                onPressed: () {
-                  // MyApp.of(context).switchTheme();
-                },
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Theme.of(context).colorScheme.surface,
-                  foregroundColor: Colors.yellow,
-                ),
-                child: const Icon(
-                  Icons.wb_sunny_outlined,
-                ),
-              )
-            : const SizedBox(),
-      ],
-    ),
+    // title: Row(
+    //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    //   children: [
+    //     Text(
+    //       title,
+    //       style: TextStyle(fontSize: size.width / 16),
+    //     ),
+    //     (!meditation)
+    //         ? ElevatedButton(
+    //             onPressed: () {
+    //               // MyApp.of(context).switchTheme();
+    //             },
+    //             style: ElevatedButton.styleFrom(
+    //               backgroundColor: Theme.of(context).colorScheme.surface,
+    //               foregroundColor: Colors.yellow,
+    //             ),
+    //             child: const Icon(
+    //               Icons.wb_sunny_outlined,
+    //             ),
+    //           )
+    //         : const SizedBox(),
+    //   ],
+    // ),
   );
 }
