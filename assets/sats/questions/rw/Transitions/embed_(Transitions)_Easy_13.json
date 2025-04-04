@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>Frankenstein</em>, Mary Shelley explores the consequences of unchecked ambition through the character of Victor Frankenstein. Driven by a desire to overcome death, Victor creates a living being from body parts. _____ his success in creating life, he is horrified by the creature's appearance and abandons it, setting off a tragic series of events that ultimately lead to his downfall.", "A": "Despite", "B": "Although", "C": "Because of", "D": "For instance", "correct": "B", "explanation": "Correct choice C: Although\nThe correct answer, \"Although,\" sets up a contrast between Victor\u2019s success in creating life and his immediate horror at the creature. It shows that, despite his achievement, he is repulsed by what he has done, leading to negative consequences.\nA) Despite would be a logical option, but \"Although\" works better in terms of structure and tone, providing a smoother contrast.\nB) Because of suggests causality, implying that his horror at the creature\u2019s appearance was a result of creating life, but the passage emphasizes the contradiction rather than cause and effect.\nD) For instance would be incorrect because the sentence is not introducing an example but contrasting Victor's success with his actions afterward."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "The mathematician sought to prove a particularly elusive theorem. She started by consolidating known results and identifying gaps in the existing literature. _____ her breakthrough came from a daring new approach that challenged conventional assumptions.",
+	"A": "Ultimately",
+	"B": "Hence",
+	"C": "Comparatively",
+	"D": "Nevertheless",
+	"correct": "A",
+	"explanation": "Correct choice A: \"Ultimately.\" Despite her initial methodical review, the final step that led to discovery was a bold and innovative technique—a culmination of previous efforts. \"Hence\" suggests a direct result, but the text emphasizes the final outcome after preparation, so \"Ultimately\" is better. \"Nevertheless\" introduces contrast, but we need a conclusion-like transition here, and \"Comparatively\" makes no sense in this context."
+}

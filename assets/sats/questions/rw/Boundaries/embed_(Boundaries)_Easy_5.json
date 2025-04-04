@@ -1,1 +1,11 @@
-{"introduction": "", "text": "In <em>The Fellowship of the Ring</em>, Tolkien captures the whimsical nature of the hobbits while setting the stage for a grand adventure. His sentence construction often weaves complex descriptions with subtle humor. The question task below tests punctuation conventions within a similarly descriptive sentence inspired by Tolkien\u2019s style.", "question": "<em>\"The celebrations began at dawn, with songs, feasts, and laughter spreading through the green hills of Hobbiton ______\"</em>", "A": "before the party started, the merriment had already begun.", "B": "before the party started the merriment, had already begun.", "C": "before the party started; the merriment had already begun.", "D": "before the party started\u2014the merriment had already begun.", "correct": "A", "explanation": "<strong>Correct Answer:</strong> Choice <strong>A</strong> is correct because it uses a comma to separate the dependent clause (before the party started) from the independent clause (the merriment had already begun). This adheres to standard English conventions for combining dependent and independent clauses. The sentence maintains a descriptive yet clear style, aligning with Tolkien\u2019s tone.<strong>Why Others Are Incorrect:</strong><strong>B.</strong> The comma after the merriment is unnecessary and creates a grammatical error by separating the subject from the predicate.<strong>C.</strong> The semicolon is inappropriate because it separates a dependent clause from an independent clause. Semicolons should only separate two independent clauses.<strong>D.</strong> The dash is overly dramatic and disrupts the sentence's natural rhythm, making it stylistically inconsistent with Tolkien\u2019s tone."}
+{
+	"introduction": "Punctuation Boundaries Practice",
+	"text": "Cameron’s study aims to identify efficient irrigation methods suitable for drought-prone regions.",
+	"question": "<em>\"He discovered that drip systems could be installed at minimal cost ______ yield significant water savings.\"</em>",
+	"A": "but and also",
+	"B": "—and yield—",
+	"C": ", and yield",
+	"D": "and yield",
+	"correct": "D",
+	"explanation": "Choice D cleanly joins the two phrases with 'and' and no additional punctuation. This indicates that installing drip systems can both be cheap and save water, without introducing unnecessary breaks."
+}

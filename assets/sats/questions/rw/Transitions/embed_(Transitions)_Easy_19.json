@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>Dracula</em>, Bram Stoker explores themes of fear and desire through the character of Count Dracula, a vampire who manipulates and terrorizes those around him. As the novel progresses, the characters realize the extent of Dracula\u2019s influence and the danger he poses. _____ the group\u2019s increasing efforts to stop him, Dracula remains elusive and continues to exert his power, creating a sense of helplessness among his enemies.", "A": "Because of", "B": "In spite of", "C": "Despite", "D": "As", "correct": "C", "explanation": "Correct choice A: Despite\nThe correct answer, \"Despite,\" introduces the contrast between the characters' efforts to stop Dracula and his continued power. It indicates that, even though they try harder to defeat him, Dracula remains a formidable and untouchable force.\nB) In spite of is a possible choice but is less natural in this sentence. \"Despite\" flows better and is more commonly used in this context.\nC) Because of would suggest that Dracula\u2019s ability to evade capture is the result of the group\u2019s efforts, which contradicts the intended meaning.\nD) As would imply that Dracula's power is in line with the group\u2019s efforts, which doesn\u2019t highlight the contrast properly."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "Philosophers of the Enlightenment championed reason and the pursuit of knowledge. Their works influenced political revolutions and reforms across Europe and the Americas. _____ religious leaders cautioned that unchecked rationalism might erode spiritual values central to social cohesion.",
+	"A": "Consequently",
+	"B": "Otherwise",
+	"C": "In contrast",
+	"D": "At the same time",
+	"correct": "D",
+	"explanation": "Correct choice D: \"At the same time.\" This transition indicates simultaneous events, highlighting that while Enlightenment ideals were gaining traction, religious authorities expressed concerns. \"Consequently\" would imply a direct outcome, \"In contrast\" focuses on direct opposition, and \"Otherwise\" indicates an alternative scenario."
+}

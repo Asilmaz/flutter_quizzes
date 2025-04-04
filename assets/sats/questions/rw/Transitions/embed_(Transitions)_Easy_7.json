@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>To Kill a Mockingbird</em>, Harper Lee explores themes of racial injustice and moral growth through the perspective of Scout Finch. Her father, Atticus Finch, is a lawyer who defends Tom Robinson, a black man accused of raping a white woman. As the trial progresses, Scout becomes increasingly aware of the prejudice and hatred in her community. _____ the trial\u2019s outcome, Atticus teaches Scout the importance of empathy and standing up for what is right, even when facing opposition.", "A": "In spite of", "B": "Because of", "C": "Regardless of", "D": "Nevertheless", "correct": "D", "explanation": "Correct choice B: Nevertheless\nThe sentence contrasts the negative outcome of the trial with Atticus\u2019s moral teachings. \"Nevertheless\" correctly signals that, despite the injustice of the trial\u2019s outcome, Atticus continues to impart valuable lessons about empathy and integrity.\nA) In spite of is tempting, but it would be a bit awkward here, as it would suggest an opposition that isn\u2019t fully captured in the structure of the sentence.\nC) Regardless of is close but doesn\u2019t fit as naturally as \"Nevertheless,\" which better signals that Atticus\u2019s lessons are still meaningful despite the trial\u2019s failure.\nD) Because of would suggest that the trial\u2019s outcome directly caused Atticus\u2019s teachings, which is not the intended meaning of the sentence."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "Some educators advocate for rigorous testing to measure student progress. They argue that without standardized assessments, it is difficult to compare student performance across regions. _____ others believe that portfolios and project-based evaluations provide a more holistic picture of learning.",
+	"A": "In other words",
+	"B": "Additionally",
+	"C": "However",
+	"D": "For example",
+	"correct": "C",
+	"explanation": "Correct choice C: \"However.\" This signals the opposing viewpoint that challenges the emphasis on standardized testing. \"Additionally\" would suggest the same side of the argument, \"For example\" would illustrate the same viewpoint, and \"In other words\" would restate, not oppose."
+}

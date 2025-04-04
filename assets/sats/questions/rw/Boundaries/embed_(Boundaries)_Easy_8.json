@@ -1,1 +1,11 @@
-{"introduction": "", "text": "Marcus Aurelius\u2019s <em>Meditations</em> urges readers to approach daily struggles with understanding and reason. His emphasis on self-awareness and the shared rationality of humanity underscores his Stoic philosophy. The following sentence reflects his contemplative tone and requires precise punctuation to clarify meaning.", "question": "<em>\"Marcus advises that when faced with the selfishness of others, one should recall their shared reason and divine nature ______\"</em>", "A": "and strive for understanding; not resentment.", "B": "and strive for understanding, not resentment.", "C": "striving for understanding, not resentment.", "D": "striving for understanding\u2014not resentment.", "correct": "B", "explanation": "<strong>Correct Answer:</strong> Choice <strong>A</strong> is correct because it connects the two independent clauses using and, creating a clear and grammatically correct sentence. This construction matches Aurelius\u2019s logical yet reflective tone and emphasizes the importance of understanding without unnecessary punctuation.<strong>Why Others Are Incorrect:</strong><strong>B.</strong> The semicolon is inappropriate because it disrupts the sentence flow and incorrectly separates the conjunction and from its clause.<strong>C.</strong> The participial phrase striving for understanding alters the sentence structure, making the latter part of the sentence dependent and incomplete.<strong>D.</strong> The dash introduces an overly dramatic pause that is inconsistent with Aurelius\u2019s measured and logical tone."}
+{
+	"introduction": "Punctuation Boundaries Practice",
+	"text": "Researchers at the institute are studying how artificial light affects nocturnal insects and their feeding patterns.",
+	"question": "<em>\"Preliminary findings show that higher-intensity streetlights ______ reduce insects’ available habitats.\"</em>",
+	"A": "however, they also",
+	"B": "however, also",
+	"C": "however also",
+	"D": "however, also,",
+	"correct": "B",
+	"explanation": "Choice B places a comma after 'however' and omits the one before 'also,' creating a smooth transitional phrase. This indicates the additional effect of streetlights while adhering to standard punctuation."
+}

@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>Jane Eyre</em>, Charlotte Bront\u00eb tells the story of an orphaned girl who grows up to become a strong, independent woman. Throughout the novel, Jane faces many hardships, including mistreatment at Lowood School and isolation at Thornfield Hall. _____ she faces these challenges with determination and resilience, she learns to trust her own feelings and convictions, ultimately finding happiness on her own terms.", "A": "Despite", "B": "Although", "C": "Because", "D": "As", "correct": "B", "explanation": "Correct choice A: Although\nThe correct answer, \"Although,\" signals a contrast between Jane\u2019s difficult circumstances and her determination. The sentence highlights that despite the challenges she faces, Jane remains resilient and learns to trust herself.\nB) Despite would be a possible choice, but \"Although\" works more naturally in this context, connecting Jane\u2019s challenges with her strength in a way that flows smoothly.\nC) Because would not work here because it suggests a causal relationship, but the sentence emphasizes contrast, not causality.\nD) As would imply simultaneity but doesn\u2019t convey the contrast between Jane's challenges and her determination."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "The sculptor used fragments of recycled metal to create a striking abstract figure. Each welded piece seemed haphazard at first glance. _____ a closer look revealed a purposeful balance between form and negative space.",
+	"A": "Nevertheless",
+	"B": "Furthermore",
+	"C": "Because of this",
+	"D": "Hence",
+	"correct": "A",
+	"explanation": "Correct choice A: \"Nevertheless.\" The text moves from describing something that appears messy to revealing underlying harmony, so a transition that indicates contrast is needed. \"Furthermore\" would add an additional point but not provide a contradiction, \"Because of this\" implies cause and effect, and \"Hence\" signals a concluding inference rather than contrast."
+}

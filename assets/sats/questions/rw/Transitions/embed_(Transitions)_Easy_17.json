@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>The Great Gatsby</em>, F. Scott Fitzgerald uses the character of Jay Gatsby to illustrate the illusions of the American Dream. Gatsby, a man born into poverty, reinvents himself and acquires immense wealth in hopes of winning back his lost love, Daisy Buchanan. _____ Gatsby's wealth and extravagant parties, he never manages to recapture the past, and his pursuit of an unattainable dream leads to his tragic end.", "A": "Despite", "B": "In contrast to", "C": "Because of", "D": "In addition to", "correct": "A", "explanation": "Correct choice B: Despite\nThe correct answer, \"Despite,\" creates a contrast between Gatsby's material success and his ultimate failure to achieve happiness. The sentence shows that, even though Gatsby accumulated wealth and hosted lavish parties, these things didn\u2019t help him fulfill his dream, leading to his tragic end.\nA) In contrast to is tempting but would introduce a more abrupt opposition that doesn\u2019t quite match the tone of the sentence. It also doesn\u2019t fit as naturally as \"Despite.\"\nC) Because of would imply that Gatsby's wealth directly led to his tragic end, but the sentence is highlighting the contrast between his success and his failure to achieve happiness.\nD) In addition to suggests an additive relationship, which doesn\u2019t fit the idea of a contrast in this context."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "Jamal overcame a steep learning curve when he started playing the violin at a later age than most. He practiced diligently for hours each day. _____ his efforts, he earned a chair in the regional youth orchestra.",
+	"A": "In spite of",
+	"B": "Because of",
+	"C": "On the contrary",
+	"D": "Even so",
+	"correct": "B",
+	"explanation": "Correct choice B: \"Because of.\" Jamal’s intensive practice led directly to his success, so a cause-and-effect transition is needed. \"In spite of\" contradicts the notion that practice was beneficial, \"On the contrary\" introduces an opposing statement, and \"Even so\" would suggest a surprising outcome. Here, it's a straightforward result."
+}

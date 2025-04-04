@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>Frankenstein</em>, Mary Shelley examines the consequences of unchecked ambition through the character of Victor Frankenstein, whose obsession with scientific discovery leads to tragic outcomes. Victor\u2019s desire to transcend the limitations of human mortality pushes him to create life from death, but the monster he creates becomes uncontrollable and destructive. _____ his initial enthusiasm and sense of achievement, Victor is horrified by the consequences of his actions and the suffering they cause.", "A": "In contrast to", "B": "Despite", "C": "For example", "D": "Furthermore", "correct": "B", "explanation": "Correct choice C: Despite\nThe sentence contrasts Victor\u2019s initial feelings of accomplishment with the negative outcomes of his actions. \"Despite\" correctly introduces the idea that, even though Victor initially felt triumphant, the consequences were devastating.\nA) In contrast to is incorrect because it doesn\u2019t flow as smoothly in the context of the sentence. While it introduces contrast, the transition would be awkward in this case.\nB) For example would not make sense, as the sentence is not providing an example but emphasizing a contradiction between Victor\u2019s feelings and the tragic consequences.\nD) Furthermore would imply an addition to the idea of Victor\u2019s initial enthusiasm, which doesn\u2019t fit the contrasting structure of the sentence."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "Epidemiologists have long warned about the impact of antibiotic resistance. They stress the importance of responsible prescription practices and proper patient education. _____ the rise of superbugs continues at an alarming pace, posing a major threat to global health.",
+	"A": "However",
+	"B": "Additionally",
+	"C": "Hence",
+	"D": "Likewise",
+	"correct": "A",
+	"explanation": "Correct choice A: \"However.\" The warnings and recommended actions haven’t prevented the problem from escalating, so the continuing threat stands in contrast to the precautions. \"Hence\" implies a result of the previous statement, which isn’t correct because we’re seeing a contradiction, not a conclusion. \"Likewise\" and \"Additionally\" add a similar point, but a contrast is needed here."
+}

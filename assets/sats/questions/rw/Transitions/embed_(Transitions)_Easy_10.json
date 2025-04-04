@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>Wuthering Heights</em>, Emily Bront\u00eb presents a story of intense love and revenge between Catherine Earnshaw and Heathcliff. Their relationship is passionate, yet destructive, as both characters are driven by their emotions rather than reason. _____ their love for each other, their inability to reconcile their differences leads to heartbreaking consequences for both of them and those around them.", "A": "For instance", "B": "Because of", "C": "Despite", "D": "As a result of", "correct": "C", "explanation": "Correct choice C: Despite\nThe correct answer, \"Despite,\" introduces the contrast between Catherine and Heathcliff\u2019s intense love for each other and the negative consequences of that love. It shows that even though their love is strong, it leads to destruction due to their inability to reconcile their differences.\nA) For instance would not work because the sentence isn\u2019t providing an example, but rather highlighting a contrast.\nB) Because of would suggest that their love directly caused the consequences, but the sentence emphasizes the contrast between their love and the destructive results.\nD) As a result of also implies causality, which doesn\u2019t fit with the intended contrast between love and its negative outcomes."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "Shelley wrote her novel <em>Frankenstein</em> during a stay in Geneva, drawing inspiration from the Romantic fascination with nature and the unknown. _____ her scientific curiosity, sparked by contemporary experiments in galvanism, also influenced her portrayal of creating life from inanimate matter.",
+	"A": "Consequently",
+	"B": "In addition",
+	"C": "For example",
+	"D": "However",
+	"correct": "B",
+	"explanation": "Correct choice B: \"In addition.\" The novel’s inspiration also came from scientific inquiry, adding another factor to the Romantic elements. \"Consequently\" would imply cause-and-effect, \"For example\" would cite a specific instance, and \"However\" suggests contrast, which does not apply here."
+}
