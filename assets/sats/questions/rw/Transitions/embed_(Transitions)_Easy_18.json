@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>Crime and Punishment</em>, Fyodor Dostoevsky explores the psychological torment of Rodion Raskolnikov, a young man who believes he is intellectually superior to others. After committing murder, Raskolnikov is overwhelmed with guilt and paranoia, leading him to question his own theories about morality. _____ his initial belief in his moral justification for the crime, he gradually realizes that no one is above the law, and his conscience cannot be silenced.", "A": "As", "B": "Even though", "C": "Because", "D": "Although", "correct": "D", "explanation": "Correct choice A: Although\nThe correct answer, \"Although,\" introduces the contrast between Raskolnikov\u2019s initial belief that he was justified in committing the crime and his eventual realization that he is not above the law. \"Although\" signals that, despite his original thoughts, he comes to understand the truth.\nB) Even though is similar but slightly less natural in this context. \"Although\" works better for introducing the contrast in this sentence.\nC) Because would suggest causality, implying that Raskolnikov\u2019s change in beliefs directly followed from his initial justification, which isn't the intended meaning.\nD) As doesn\u2019t create the necessary contrast between his initial belief and later realization, and would weaken the sentence's flow."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "The intrepid travel blogger journeyed across the Sahara by camel, enduring scorching days and frigid nights. _____, she produced a series of vivid photographs and journal entries that captured the harsh beauty of desert life.",
+	"A": "Nevertheless",
+	"B": "Instead",
+	"C": "As a result",
+	"D": "Meanwhile",
+	"correct": "C",
+	"explanation": "Correct choice C: \"As a result.\" Her successful desert crossing allowed her to document stunning images and stories from the Sahara, so a cause-and-effect transition is apt. \"Nevertheless\" would suggest an unexpected twist, \"Instead\" suggests replacing one action with another, and \"Meanwhile\" focuses on simultaneity rather than outcome."
+}

@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>The Great Gatsby</em>, F. Scott Fitzgerald explores the theme of the American Dream through the life of Jay Gatsby, a man who rises from humble beginnings to acquire vast wealth. Gatsby\u2019s love for Daisy Buchanan represents his belief that he can recreate the past and achieve an idealized future. _____ Gatsby\u2019s wealth and extravagant parties, however, cannot erase the reality that Daisy is already married, and the life he dreams of is unattainable.", "A": "In contrast to", "B": "Consequently", "C": "Despite", "D": "For instance", "correct": "C", "explanation": "Correct choice A: Despite\nThe sentence introduces a contradiction between Gatsby\u2019s dreams and the reality of his situation. \"Despite\" correctly shows that, regardless of Gatsby\u2019s wealth and efforts, he cannot change the fact that Daisy is married and his dream is unreachable.\nB) Consequently implies a direct result, but here the sentence is focusing on a contrast between Gatsby\u2019s idealized hopes and the actual limitations of his situation.\nC) In contrast to would introduce an abrupt shift that doesn\u2019t fit the sentence\u2019s flow. It also doesn\u2019t capture the nuanced contradiction between Gatsby\u2019s wealth and his unattainable dream.\nD) For instance would be incorrect because the sentence isn\u2019t providing an example, but instead discussing a direct contradiction."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "Fans of ancient Greek drama often focus on Athens as the epicenter of theatrical innovation. _____ scholars have turned their attention to the lesser-known city of Syracuse, which also contributed to the art form’s evolution through playwrights and performances of equal sophistication.",
+	"A": "On the contrary",
+	"B": "Indeed",
+	"C": "Subsequently",
+	"D": "However",
+	"correct": "D",
+	"explanation": "Correct choice D: \"However.\" The mention of Athens’s fame is contrasted by the fact that Syracuse also played a key role, so we need a transition that shows an unexpected shift in focus. \"Indeed\" would reinforce the same idea about Athens, not introduce a new contrasting location. \"Subsequently\" suggests time order rather than contrast, and \"On the contrary\" can be overly forceful here."
+}

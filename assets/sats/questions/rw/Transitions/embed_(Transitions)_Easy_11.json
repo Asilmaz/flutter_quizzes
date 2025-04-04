@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>The Picture of Dorian Gray</em>, Oscar Wilde explores the dangers of vanity and the consequences of a life lived without moral restraint. Dorian Gray, a handsome young man, becomes obsessed with preserving his physical beauty, making a wish that his portrait would age instead of him. _____ his outward appearance remains youthful, his portrait reveals the corrupting influence of his actions, becoming more monstrous as Dorian's life spirals out of control.", "A": "Although", "B": "Because", "C": "Even though", "D": "As long as", "correct": "C", "explanation": "Correct choice B: Even Though\nThe correct answer, \"Even though,\" introduces a contrast between Dorian's preserved beauty and the deteriorating state of his portrait. The sentence highlights that despite Dorian's outward appearance remaining youthful, his internal corruption is evident in the portrait, which grows more monstrous.\nA) Although could work in some contexts, but \"Even though\" fits better here, as it conveys a stronger contrast between the two ideas.\nC) Because would suggest a causal relationship, implying that the portrait's corruption was caused by Dorian\u2019s youthfulness, which isn't the intended meaning.\nD) As long as would suggest a condition, which doesn't align with the context of the sentence, as it doesn\u2019t show a contrast or direct relationship."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "Since space travel remains prohibitively expensive for most nations, several agencies are collaborating on joint missions. They share resources to lower individual costs. _____ these partnerships allow a broader pool of scientists to contribute their expertise, potentially increasing each mission’s overall success.",
+	"A": "Nevertheless",
+	"B": "In the same way",
+	"C": "Moreover",
+	"D": "Despite that",
+	"correct": "C",
+	"explanation": "Correct choice C: \"Moreover.\" Joint missions not only spread costs but also bring in diverse scientific expertise—an additional benefit. \"Nevertheless\" and \"Despite that\" suggest a concession, while \"In the same way\" implies a parallel example rather than an additional point."
+}

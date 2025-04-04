@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>The Adventures of Huckleberry Finn</em>, Mark Twain tells the story of a young boy, Huck, who runs away from home to escape his abusive father. On his journey down the Mississippi River, Huck forms a close bond with Jim, a runaway slave. _____ Huck initially struggles with his feelings of guilt about helping Jim, he eventually comes to see him as a friend and equal, challenging the societal norms of the time.", "A": "Although", "B": "In contrast to", "C": "Because", "D": "Consequently", "correct": "A", "explanation": "Correct choice A: Although\nThe correct answer, \"Although,\" introduces a contrast between Huck\u2019s initial guilt and his eventual realization that Jim is a friend and equal. The sentence highlights Huck\u2019s internal struggle and his growth, making \"Although\" the most appropriate choice.\nB) In contrast to is incorrect because it suggests a more direct opposition, but the sentence is about a gradual change in Huck's perspective, not an abrupt contrast.\nC) Because would imply causality, which doesn't fit the structure of the sentence. The sentence is emphasizing a change in Huck\u2019s feelings despite initial guilt.\nD) Consequently would suggest that Huck\u2019s feelings of guilt lead directly to him seeing Jim as a friend, which does not align with the intended meaning of gradual personal growth."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "Some historians argue that the Renaissance was largely confined to elite circles, centered on wealthy patrons. They claim that everyday peasants saw little of these artistic or intellectual movements. _____ others maintain that new printing technologies disseminated knowledge far beyond the aristocracy.",
+	"A": "Likewise",
+	"B": "Furthermore",
+	"C": "On the other hand",
+	"D": "Hence",
+	"correct": "C",
+	"explanation": "Correct choice C: \"On the other hand.\" This signals an opposing viewpoint about the Renaissance’s broader influence. \"Likewise\" or \"Furthermore\" would suggest agreement, and \"Hence\" would imply a conclusion, which is not what's needed here."
+}Ś

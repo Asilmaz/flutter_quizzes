@@ -1,1 +1,11 @@
-{"introduction": "", "question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.", "text": "In <em>The Scarlet Letter</em>, Nathaniel Hawthorne portrays the consequences of sin and guilt in Puritan society. Hester Prynne, the novel\u2019s protagonist, is publicly shamed for bearing an illegitimate child and forced to wear the scarlet letter \"A\" as a symbol of her sin. _____ her punishment, Hester remains strong and resilient, ultimately choosing to live with dignity rather than hiding in shame.", "A": "In addition to", "B": "Despite", "C": "For example", "D": "Consequently", "correct": "B", "explanation": "Correct choice A: Despite\nThe sentence highlights a contrast between Hester\u2019s punishment and her personal response to it. \"Despite\" correctly conveys that, even though Hester faced harsh punishment, she remains strong and resilient.\nB) In addition to would be incorrect because it suggests that there is something additional to Hester\u2019s punishment, but the sentence is focusing on her reaction to the punishment itself, not adding another element.\nC) For example is wrong because the sentence is not introducing an example of something but contrasting Hester\u2019s punishment with her strength.\nD) Consequently would imply that her strength is a direct result of her punishment, which doesn\u2019t fit the sentence\u2019s intended meaning of contrast."}
+{
+	"introduction": "",
+	"question": "Read the passage below and choose the most appropriate transition word or phrase to fill in the blank.",
+	"text": "Early climate models underestimated the speed of glacial melting worldwide. Scientists have refined these models to incorporate more detailed data on ocean currents and atmospheric patterns. _____ the latest projections suggest that sea level rise could occur faster than previously thought.",
+	"A": "As a result",
+	"B": "Nevertheless",
+	"C": "Otherwise",
+	"D": "In contrast",
+	"correct": "A",
+	"explanation": "Correct choice A: \"As a result.\" This new data in refined models has led to updated, more alarming projections. \"Nevertheless\" signals a concession, \"Otherwise\" indicates an alternative scenario, and \"In contrast\" suggests a difference between two statements, but we need a cause-and-effect transition here."
+}
