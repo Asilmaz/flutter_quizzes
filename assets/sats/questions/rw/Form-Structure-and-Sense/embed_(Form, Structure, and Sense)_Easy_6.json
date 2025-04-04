@@ -1,1 +1,11 @@
-{"introduction": "The following passage is adapted from <em>The Voyage of the Beagle</em> by Charles Darwin (1839).", "text": "While exploring the Gal\u00e1pagos Islands, Darwin observed various species of finches, each with distinct beak shapes adapted to different diets. These observations were instrumental in shaping his theory of evolution. The finches, Darwin noted, ______ unique traits that allowed them to thrive in specific ecological niches. This discovery highlighted the role of natural selection in driving adaptations over time.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English? Ensure the verb agrees with the subject and maintains consistency with the past tense narrative.", "A": "demonstrate", "B": "demonstrates", "C": "demonstrating", "D": "demonstrated", "correct": "D", "explanation": " Choice <strong>C</strong> is the best answer. The past tense demonstrated is consistent with the past tense narrative of Darwin\u2019s observations during his voyage. This verb aligns logically with the historical context in which Darwin made his discoveries.<strong> Choice A</strong> is incorrect because the present tense demonstrate disrupts the past tense flow of the narrative, making the sentence inconsistent with the historical context.<strong> Choice B</strong> is incorrect because the singular verb demonstrates does not agree with the plural subject finches.<strong> Choice D</strong> is incorrect because the present participle demonstrating does not form a grammatically complete main clause."}
+{
+	"introduction": "The following passage is adapted from <em>Astrophysics in the Modern Era</em> by Dr. Isaac Reynolds (2018).",
+	"text": "Probing deep space with advanced telescopes, researchers have observed faint celestial bodies that ______ beyond our current classifications, suggesting entire categories of stars remain undiscovered.",
+	"question": "Which choice completes the text so that it conforms to the conventions of Standard English? Consider whether the plural noun and the verb form agree.",
+	"A": "exist",
+	"B": "exists",
+	"C": "were existing",
+	"D": "existing",
+	"correct": "A",
+	"explanation": "Choice <strong>A</strong> is correct because the plural subject bodies pairs with the plural verb exist in present tense. <strong>B</strong> exists is singular. <strong>C</strong> were existing is past progressive and less appropriate for a general statement. <strong>D</strong> existing does not provide a main verb for the clause."
+}

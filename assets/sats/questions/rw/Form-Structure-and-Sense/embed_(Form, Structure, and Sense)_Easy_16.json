@@ -1,1 +1,11 @@
-{"introduction": "The following passage is adapted from <em>Rocket Men: The Daring Odyssey of Apollo 8</em> by Robert Kurson (2018).", "text": "In 1968, as the United States raced to beat the Soviet Union in the space race, NASA made the bold decision to send Apollo 8 to orbit the Moon. This mission marked the first time humans had ever left Earth's orbit and journeyed to another celestial body. Frank Borman, the mission commander, ______ responsible for ensuring the spacecraft\u2019s safety and guiding the crew through the complex mission.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English? Consider subject-verb agreement and the use of tense appropriate for the historical context of the event.", "A": "was", "B": "is", "C": "have been", "D": "are", "correct": "A", "explanation": " Choice <strong>B</strong> is the best answer. The past tense was agrees with the past context of the sentence, describing the events of the Apollo 8 mission in 1968.<strong> Choice A</strong> is incorrect because the present tense is does not align with the historical context, implying that the event is happening now rather than in the past.<strong> Choice C</strong> is incorrect because the present perfect have been suggests an ongoing condition rather than a past event tied to a specific historical moment.<strong> Choice D</strong> is incorrect because the plural verb are does not agree with the singular subject Frank Borman."}
+{
+	"introduction": "The following passage is adapted from <em>Quantum Leap: Explorations in Physics</em> by Dr. Wei Li (2021).",
+	"text": "The double-slit experiment demonstrates the wave-particle duality of electrons. Surprisingly, each electron, although fired individually, ______ an interference pattern over time, suggesting it interferes with itself.",
+	"question": "Which choice completes the text so that it conforms to the conventions of Standard English? Consider the singular subject electron and the continuing relevance of the phenomenon.",
+	"A": "produced",
+	"B": "produce",
+	"C": "produces",
+	"D": "will producing",
+	"correct": "C",
+	"explanation": "Choice <strong>C</strong> is correct because each electron is a singular subject and present tense (produces) is used to discuss a phenomenon still valid today. <strong>A</strong> produced places the event strictly in the past. <strong>B</strong> produce is plural. <strong>D</strong> will producing is grammatically incorrect."
+}

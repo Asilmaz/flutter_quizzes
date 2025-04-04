@@ -1,1 +1,11 @@
-{"introduction": "The following passage is adapted from <em>Salt: A World History</em> by Mark Kurlansky (2002).", "text": "Salt has been a vital commodity throughout human history, used for preserving food, enhancing flavor, and even as currency in some societies. In ancient Rome, soldiers were often paid with salt, a practice that gave rise to the word \u201csalary.\u201d This historical significance of salt underscores how early civilizations ______ it as an essential element of trade and survival.", "question": "Which choice completes the text so that it conforms to the conventions of Standard English? Carefully evaluate the grammatical and logical alignment of each option within the context of the passage.", "A": "sees", "B": "have seen", "C": "saw", "D": "seeing", "correct": "C", "explanation": " Choice <strong>A</strong> is the best answer. The past tense saw aligns with the historical context described in the passage, which refers to practices and perceptions of salt in ancient civilizations.<strong> Choice B</strong> is incorrect because the present perfect have seen implies an action continuing into the present, which conflicts with the historical focus of the passage.<strong> Choice C</strong> is incorrect because the present tense sees disrupts the past narrative and inaccurately suggests that the perception of salt as described is ongoing.<strong> Choice D</strong> is incorrect because the participle seeing does not provide a complete verb for the main clause, rendering the sentence grammatically incomplete."}
+{
+	"introduction": "The following passage is adapted from <em>Composers of the Baroque Period</em> by Lena Moore (2020).",
+	"text": "Claudio Monteverdi’s early operas merged Renaissance polyphony with emerging Baroque forms. This combination of styles, marked by bold harmonies and dramatic expression, ______ the evolution of Western classical music.",
+	"question": "Which choice completes the text so that it conforms to the conventions of Standard English? Pay attention to the singular subject and the tense used to discuss historical influence.",
+	"A": "influencing",
+	"B": "were influencing",
+	"C": "influences",
+	"D": "influence",
+	"correct": "C",
+	"explanation": "Choice <strong>C</strong> is correct. The subject This combination is singular, so it takes the singular verb influences in a broad, timeless context. <strong>A</strong> influencing provides no main verb. <strong>B</strong> were influencing is plural. <strong>D</strong> influence is plural and doesn’t agree with combination."
+}
