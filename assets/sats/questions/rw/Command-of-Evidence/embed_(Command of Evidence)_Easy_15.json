@@ -1,1 +1,11 @@
-{"introduction": "Excerpt from The Expansion of the Railroads in 19th-Century America by J.R. McNeil", "text": "\"In the mid-1800s, the U.S. saw rapid expansion of its railroad system, with several regions experiencing notable increases in rail line mileage. The data on rail expansion highlights the substantial growth in the Midwest from 1850 to 1870, where mileage nearly tripled, while ______.\"", "question": "Which choice most effectively uses data on rail expansion trends to complete the statement?", "A": "the South saw a slight decrease in rail line mileage.", "B": "Western territories remained largely without rail lines.", "C": "Eastern states saw similar levels of expansion as the Midwest.", "D": "rail construction slowed in the Northeast due to funding issues.", "correct": "B", "explanation": "Choice B is the best answer because it aligns with the historical context, as Western territories were still largely undeveloped in terms of rail infrastructure during this period.\nChoice A is incorrect, as the South was still expanding its railroads, albeit slower than the Midwest.\nChoice C is misleading; the Midwest had the most significant expansion.\nChoice D is incorrect, as funding issues were less significant than geographical challenges in the Northeast."}
+{
+	"introduction": "Passage from 'Musical Innovation in 20th-Century Compositions' (2025)",
+	"text": "Komatsu’s early symphonies, written in the 1920s, employed folk melodies interwoven with modernist dissonances, shocking audiences accustomed to traditional tonality. Critics at the time were divided, with some praising the bold innovation and others lamenting the jarring effect. Today, musicologists view these pieces as precursors to mid-century experimental works, noting that Komatsu paved the way for later composers to blend vernacular tunes with atonal progressions in mainstream performances.",
+	"question": "Which aspect of Komatsu’s symphonies was most surprising to contemporary audiences?",
+	"A": "The exclusive use of folk instruments throughout the entire symphony",
+	"B": "The fusion of regional folk melodies with harsh, dissonant modern elements",
+	"C": "The reliance on strictly atonal frameworks devoid of recognizable themes",
+	"D": "The unusual brevity of each movement compared to traditional symphonies",
+	"correct": "B",
+	"explanation": "Choice B is correct because the passage indicates the combination of folk melodies with modernist dissonances was unexpected and divisive among audiences used to tonal music. The other options are not explicitly stated."
+}

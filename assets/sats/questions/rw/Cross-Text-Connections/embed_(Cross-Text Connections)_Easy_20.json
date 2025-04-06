@@ -1,1 +1,12 @@
-{"introduction": "", "text": "The potato, brought from the Andes to Europe in the 16th century, faced initial resistance before becoming a staple crop in countries like Ireland, where it provided essential nutrition for lower-income families.", "text2": "Historian Alfred Crosby argues that the potato\u2019s delayed acceptance in Europe was due to misconceptions about its nutritional value and foreign origins, which limited its widespread adoption until later centuries.", "question": "Based on the texts, both authors would most likely agree with which statement?", "A": "Misconceptions delayed the potato\u2019s integration into European diets.", "B": "The potato immediately became popular across Europe after its introduction.", "C": "Potatoes were valued in Europe mainly for their aesthetic appeal.", "D": "The potato was widely grown across Europe upon arrival.", "correct": "A", "explanation": "B is the best answer. Both texts agree that misconceptions delayed the potato\u2019s widespread acceptance in Europe.Choice A is incorrect; both texts indicate a delay in acceptance.Choice C is incorrect; neither text mentions aesthetic value.Choice D is incorrect; both suggest adoption was gradual, not immediate."}
+{
+	"introduction": "",
+	"text": "Text 1: Certain ecologists claim that plankton diversity can remain high only when the environment experiences frequent disturbances, preventing any single species from dominating.",
+	"text2": "Text 2: Another school of thought posits that the minuscule size and sparse distribution of plankton effectively reduce competition, suggesting that disturbances are not strictly necessary to explain high diversity in stable conditions.",
+	"question": "How would adherents of Text 2 most likely respond to the reasoning presented in Text 1?",
+	"A": "They would argue that frequent disturbances are irrelevant if direct competition is already minimal.",
+	"B": "They would agree wholeheartedly that disturbances are the only way to sustain diversity.",
+	"C": "They would propose halting all experiments dealing with ecological disturbances.",
+	"D": "They would claim that plankton diversity is a myth created by incomplete sampling methods.",
+	"correct": "A",
+	"explanation": "Choice A is correct because Text 2 focuses on the physically constrained competition at the microscopic level, reducing the necessity of disturbances. The other answers either conflict with or misrepresent the stance in Text 2."
+}

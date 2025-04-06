@@ -1,1 +1,12 @@
-{"introduction": "", "text": "Travel writing has often been dismissed by literary scholars, who view it as superficial. Works within this genre, despite being widely read, are often excluded from academic study due to perceived lack of literary depth.", "text2": "In In Patagonia, Bruce Chatwin revitalized travel writing by blending personal narrative with historical research. Although Chatwin\u2019s style received critical acclaim, his work has seen limited attention from scholars.", "question": "Based on the texts, how would the author of Text 1 most likely view Chatwin\u2019s experience in Text 2?", "A": "As justified, since travel writing lacks historical depth.", "B": "As unusual, considering Chatwin\u2019s innovative narrative style.", "C": "As inevitable, given the broad popularity of travel literature.", "D": "As unsurprising, given scholars\u2019 tendency to overlook travel writing.", "correct": "D", "explanation": "A is the best answer. Text 1 suggests that scholars overlook travel writing, so the limited scholarly attention to Chatwin\u2019s work would be unsurprising.Choice B is incorrect; innovative style does not alter scholarly disregard.Choice C is incorrect; Text 2 highlights historical research in Chatwin\u2019s work.Choice D is incorrect; popularity isn\u2019t mentioned as a reason for scholarly neglect."}
+{
+	"introduction": "",
+	"text": "Text 1: A wave of pastoralism is credited with having turned fertile savannas into arid desert, as herds consumed critical vegetation, beginning an irreversible feedback loop of desertification.",
+	"text2": "Text 2: Meteorological records and geologic data show that a shift in Earth’s orbit caused a gradual drying trend, which pastoralist practices may have simply accelerated, delayed, or had no net effect on, depending on localized conditions.",
+	"question": "If the researchers from Text 2 were to address the stance in Text 1, how would they likely respond?",
+	"A": "They would describe the desertification process as unrelated to any climate shifts or human activity.",
+	"B": "They would label any human involvement as purely beneficial in every environment worldwide.",
+	"C": "They would acknowledge possible human influence but stress that broader orbital factors could supersede or complicate local pastoralist effects.",
+	"D": "They would insist that newly introduced livestock triggered glacial conditions rather than desertification.",
+	"correct": "C",
+	"explanation": "Choice C is correct because Text 2 emphasizes large-scale climate drivers (orbital changes) that might overshadow or modify the impact humans had. The others are inconsistent with or contradict the data in Text 2."
+}

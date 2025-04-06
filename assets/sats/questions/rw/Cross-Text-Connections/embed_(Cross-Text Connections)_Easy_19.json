@@ -1,1 +1,12 @@
-{"introduction": "", "text": "Environmental scientist Diana Beresford-Kroeger studied ancient forests and argued that mature trees contribute to ecosystems by sequestering carbon, thus playing a critical role in combating climate change.", "text2": "Forester Peter Wohlleben found that mature trees contribute to the ecosystem in multiple ways, but noted that factors like soil health and biodiversity also significantly impact carbon sequestration.", "question": "Based on the texts, how would Wohlleben (Text 2) most likely respond to Beresford-Kroeger\u2019s (Text 1) conclusion?", "A": "By suggesting that younger trees sequester more carbon than mature ones.", "B": "By emphasizing that additional factors influence ecosystems beyond mature trees.", "C": "By claiming that mature trees play an insignificant role in carbon sequestration.", "D": "By arguing that soil health is the only factor in carbon sequestration.", "correct": "B", "explanation": "B is the best answer. Wohlleben (Text 2) acknowledges the importance of mature trees but would add that other factors like soil health also play a role in ecosystem health.Choice A is incorrect; Wohlleben does not minimize the role of mature trees.Choice C is incorrect; no comparison with younger trees is made.Choice D is incorrect; Wohlleben highlights multiple factors, not only soil health."}
+{
+	"introduction": "",
+	"text": "Text 1: One study claims that shipping lanes are effectively minimizing direct competition among shipping companies, as each route is controlled by a limited set of major carriers. This results in stable but uncompetitive pricing.",
+	"text2": "Text 2: Another analysis shows that while certain primary routes may be dominated by a few players, many minor routes remain open to smaller companies. Over time, these smaller companies can expand and challenge established carriers, implying that competition is still viable if given enough time.",
+	"question": "If the authors of Text 2 were to critique the study in Text 1, which viewpoint would they most likely express?",
+	"A": "They would see no sign of any route being dominated by major carriers.",
+	"B": "They would agree competition is locked out entirely across all global routes.",
+	"C": "They would suggest that long-term market dynamics can shift, allowing emerging carriers to compete effectively.",
+	"D": "They would argue that smaller companies inevitably collaborate with major carriers to fix prices.",
+	"correct": "C",
+	"explanation": "Choice C is correct because Text 2 notes that smaller carriers could grow on less-regulated routes, eventually becoming more competitive on major routes. The other options conflict with or oversimplify the second analysis."
+}

@@ -1,1 +1,12 @@
-{"introduction": "", "text": "In 1923, mountaineer George Mallory attempted to climb Mount Everest, famously stating he pursued the summit \u201cbecause it\u2019s there.\u201d His determination has inspired numerous books and documentaries.", "text2": "Historians studying Mallory's climb note a lack of evidence confirming he reached the summit. Mallory is celebrated today, but his actual success remains a mystery.", "question": "Based on the texts, both authors would most likely agree with which statement?", "A": "Mallory\u2019s climb is historically insignificant without evidence of success.", "B": "Evidence suggests Mallory successfully climbed Everest.", "C": "Mallory\u2019s attempt inspired admiration regardless of whether he reached the summit.", "D": "Mallory\u2019s fame rests solely on reaching the summit of Everest.", "correct": "C", "explanation": "B is the best answer. Both texts acknowledge the admiration and legacy of Mallory\u2019s attempt, even though his success is unconfirmed.Choice A is incorrect; both texts suggest his attempt remains significant.Choice C is incorrect; Mallory is admired despite unclear success.Choice D is incorrect; there is no conclusive evidence of Mallory reaching the summit."}
+{
+	"introduction": "",
+	"text": "Text 1: Certain scholars believe that the Deccan Traps eruption was responsible for the K-Pg extinction event. They reference other mass extinctions coinciding with large-scale volcanic eruptions as further evidence of this link.",
+	"text2": "Text 2: Pincelli Hull and her colleagues contend that any greenhouse gas effects from the Deccan Traps had largely dissipated before the global die-off, which aligns instead with a massive impact at Chicxulub. Their core-sample analysis puts the eruption’s primary influence too early to be the main trigger of extinctions.",
+	"question": "How would Hull and colleagues (Text 2) most likely respond to the argument in Text 1 linking mass extinction solely to volcanic activity?",
+	"A": "They would deem the timing of the volcanic influence insufficient, since their research indicates it ended before the critical extinction window.",
+	"B": "They would endorse the position that large-scale eruptions always dominate other potential extinction triggers.",
+	"C": "They would concede that volcanic eruptions peaked exactly at the same time as the mass extinction.",
+	"D": "They would argue that ocean core-sample data has zero bearing on geological events.",
+	"correct": "A",
+	"explanation": "Choice A is correct because Text 2 explicitly states that climate impacts from the Deccan Traps occurred too early to drive the K-Pg event, thus disagreeing with the sole volcanic cause argument. The other choices are refuted by Text 2’s conclusions."
+}

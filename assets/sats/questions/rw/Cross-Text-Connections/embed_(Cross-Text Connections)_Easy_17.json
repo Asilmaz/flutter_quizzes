@@ -1,1 +1,12 @@
-{"introduction": "", "text": "Anthropologists studying ancient Greek pottery often interpret detailed scenes as records of daily life, showing activities like harvesting and cooking with impressive precision and realism.", "text2": "Art historian John Boardman, however, argues that these depictions are often idealized and symbolic rather than literal, reflecting cultural values rather than actual daily routines.", "question": "Based on the texts, how would Boardman (Text 2) most likely respond to the interpretation in Text 1?", "A": "Greek pottery is limited to depicting mythological stories.", "B": "Pottery scenes offer the most accurate view of ancient Greek life.", "C": "Ancient pottery should be used as primary evidence of Greek society\u2019s lifestyle.", "D": "Detailed pottery scenes emphasize symbolic ideals over realistic depictions.", "correct": "D", "explanation": "B is the best answer. Boardman (Text 2) contends that pottery scenes are more symbolic, suggesting they reflect ideals rather than literal depictions of daily life.Choice A is incorrect; Boardman challenges the realism of these scenes.Choice C is incorrect; mythological themes are not mentioned in this context.Choice D is incorrect; Boardman would argue pottery is not purely factual evidence."}
+{
+	"introduction": "",
+	"text": "Text 1: Philosopher G.E. Moore posits that everyday beliefs—like ‘I have two hands’—are self-evident truths, requiring no elaborate proof. He famously demonstrated this by holding up each hand and stating, ‘Here is one hand, and here is another.’",
+	"text2": "Text 2: Many philosophers reject Moore’s approach, asserting that simply gesturing at the world does not address deep skepticism about the external universe. Yet they struggle to articulate precisely why such ‘common sense’ arguments fail to refute radical doubt.",
+	"question": "How would the author of Text 2 most likely respond to Moore’s well-known ‘two hands’ demonstration discussed in Text 1?",
+	"A": "By acknowledging it as a clever proof that definitively counters skepticism.",
+	"B": "By contending it is a superficial approach that bypasses the core issues raised by external world skepticism.",
+	"C": "By insisting Moore was unaware of the existence of radical skepticism in his era.",
+	"D": "By praising its scientific rigor and reliance on empirical measurement tools.",
+	"correct": "B",
+	"explanation": "Choice B is correct because Text 2 highlights that many philosophers find Moore’s simple gesture unsatisfactory. The other options do not reflect the critical stance described in Text 2."
+}
