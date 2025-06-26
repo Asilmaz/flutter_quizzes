@@ -20,7 +20,7 @@ Future<void> ReportQuestionDialog(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Text("Would you like to report this question?",
+                Text("Would you like to report this question?${questionID != null ? " (ID: $questionID)" : ""}",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
