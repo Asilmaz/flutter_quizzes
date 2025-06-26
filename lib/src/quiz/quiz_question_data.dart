@@ -8,9 +8,10 @@ Future<Map<String, QuizQuestionData>> convertToQuestions(Map<String, dynamic> ta
     for (int i = 0; i < tasks.length; ++i)
       "$i": await () async {
         String id = tasks.keys.elementAt(i);
-        Map<String, String> answers = {
+        Map<String, dynamic> answers = {
           for (var key in tasks[id]["answers"].keys)
-            key: tasks[id]["answers"][key]["text"].toString(),
+            key: tasks[id]["answers"][key]["text"] as dynamic,
+          // key: tasks[id]["answers"][key]["text"].toString(),
         };
         Map<String, bool> correct = {
           for (var key in tasks[id]["answers"].keys)
@@ -40,7 +41,7 @@ class QuizQuestionData {
   String? text;
   String? text2;
   String question;
-  Map<String, String> answers;
+  Map<String, dynamic> answers;
   Map<String, bool> correct;
   Map<String, double> score;
   Map<String, double?>? scoreIncorrect;
@@ -54,21 +55,21 @@ class QuizQuestionData {
   String id;
 
   QuizQuestionData(
-    this.answers,
-    this.correct,
-    this.score, {
-    this.introduction,
-    this.text,
-    this.text2,
-    required this.question,
-    this.scoreIncorrect,
-    this.explanation,
-    this.subcategory,
-    this.subcategoryStr = "",
-    this.difficulty,
-    this.table = const [],
+      this.answers,
+      this.correct,
+      this.score, {
+        this.introduction,
+        this.text,
+        this.text2,
+        required this.question,
+        this.scoreIncorrect,
+        this.explanation,
+        this.subcategory,
+        this.subcategoryStr = "",
+        this.difficulty,
+        this.table = const [],
         this.id = '',
-  });
+      });
 
   QuizQuestionData.fromJson(Map<String, dynamic> json)
       : introduction = json['introduction'] as String?,
@@ -77,7 +78,8 @@ class QuizQuestionData {
         question = (json['question'] != null ? json['question'] : json['task']) as String,
         answers = {
           for (var key in json['answers'].keys)
-            key: json['answers'][key].toString(),
+          // key: json['answers'][key].toString(),
+            key: json['answers'][key] as dynamic,
         },
         correct = {
           for (var key in json['correct'].keys)
@@ -94,7 +96,7 @@ class QuizQuestionData {
         explanation = json['explanation'] as String,
         subcategoryStr = (json['subcategory'] != null ? json['subcategory'] : json['category']) as String,
         difficulty = SatsQuestionDifficulty.fromString(json['difficulty']),
-  id = (json['id'] ?? '') as String;
+        id = (json['id'] ?? '') as String;
 
   QuizQuestionData.fromJsonDifficulty(Map<String, dynamic> json, this.difficulty)
       : introduction = json['introduction'] as String?,
@@ -103,7 +105,8 @@ class QuizQuestionData {
         question = (json['question'] != null ? json['question'] : json['task']) as String,
         answers = {
           for (var key in json['answers'].keys)
-            key: json['answers'][key].toString(),
+          // key: json['answers'][key].toString(),
+            key: json['answers'][key] as dynamic,
         },
         correct = {
           for (var key in json['correct'].keys)
