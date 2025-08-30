@@ -87,7 +87,7 @@ class QuizQuestionData {
         },
         score = json['score'] == null ? {
           for (var key in json['answers'].keys)
-            key: 1,
+            key: (json['correct'][key] ? 1 : 0) as double,
         } : {
           for (var key in json['score'].keys)
             key: json['score'][key] as double,
@@ -122,7 +122,7 @@ class QuizQuestionData {
         table = json['table'] == null ? [] : List<List<String>>.from(json['table']),
         explanation = json['explanation'] as String,
         subcategoryStr = (json['subcategory'] != null ? json['subcategory'] : json['category']) as String,
-        id = (json['id'] ?? '') as String;
+        id = (json["ID"] ?? json['id'] ?? '') as String;
 
   String toJson() {
     Map<String, dynamic> json = {
