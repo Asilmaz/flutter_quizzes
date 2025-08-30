@@ -96,7 +96,7 @@ class QuizQuestionData {
         explanation = json['explanation'] as String,
         subcategoryStr = (json['subcategory'] != null ? json['subcategory'] : json['category']) as String,
         difficulty = SatsQuestionDifficulty.fromString(json['difficulty']),
-        id = (json['id'] ?? '') as String;
+        id = (json["ID"] ?? json['id'] ?? '') as String;
 
   QuizQuestionData.fromJsonDifficulty(Map<String, dynamic> json, this.difficulty)
       : introduction = json['introduction'] as String?,
