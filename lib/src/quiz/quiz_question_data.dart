@@ -87,7 +87,7 @@ class QuizQuestionData {
         },
         score = json['score'] == null ? {
           for (var key in json['answers'].keys)
-            key: (json['correct'][key] ? 1 : 0) as double,
+            key: (json['correct'][key] ? 1.0 : 0.0) as double,
         } : {
           for (var key in json['score'].keys)
             key: json['score'][key] as double,
